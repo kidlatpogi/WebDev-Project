@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clients</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rowdies&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="admin-client.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <nav class="nav">
+    <!-- Hamburger Navigation Start -->
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+
+      <ul class="menu__box">
+        <li><a class="menu__item" href="admin-home.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a class="menu__item" href="admin-reservation.php"><i class="fas fa-calendar-check"></i> Reserve Rooms</a></li>
+        <li><a class="menu__item" href="admin-logs.html"><i class="fas fa-clipboard-list"></i> Logs</a></li>
+        <li><a class="menu__item" href="admin-available-rooms.html"><i class="fas fa-door-open"></i> Available Rooms</a></li>
+        <li><a class="menu__item" href="admin-client.html"><i class="fas fa-users"></i> Clients</a></li>
+        <li><a class="menu__item" href="admin-archive.html"><i class="fas fa-archive"></i> Archive</a></li>
+        <li><a class="menu__item" href="index.html"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+      </ul>
+    </div>
+    <!-- Hamburger Navigation End -->
+    
+    <!-- Logo -->
+    <div class="logo">
+      <img src="Photos/nu-logo-label.png" alt="NU Logo">
+    </div>
+  </nav>
+
+  <main class="main">
+    <h2 class="page-title"><i class="fas fa-users"></i> Client Management</h2>
+
+
+<div class="search-container" style="flex-direction: column; align-items: stretch;">
+  <div class="search-box" style="margin-bottom: 10px;">
+    <i class="fas fa-search"></i>
+    <input type="text" placeholder="Search clients..." id="clientSearch">
+  </div>
+  <div class="filter-container" style="justify-content: flex-start;">
+    <select id="userFilter" class="filter-select">
+      <option value="all">All Users</option>
+      <option value="admins">Admins</option>
+      <option value="users">Users</option>
+    </select>
+  </div>
+</div>
+
+
+    <div class="client-list" id="clientListContainer">
+      <!-- Client cards will be dynamically inserted here -->
+    </div>
+  </main>
+
+  <!-- Edit Modal -->
+  <div id="editModal" class="modal">
+    <form id="editForm" class="account-form">
+      <h4><i class="fas fa-user-edit"></i> Edit User Info</h4>
+      <input type="hidden" name="user_id" id="edit-user-id" />
+      
+      <div class="account-form-row">
+        <div class="form-group">
+          <label for="account-fname"><i class="fas fa-user"></i> First Name</label>
+          <input type="text" id="account-fname" name="fname" />
+          <button type="button" class="update-btn" onclick="updateField('fname')">
+            <i class="fas fa-save"></i> Update
+          </button>
+        </div>
+        <div class="form-group">
+          <label for="account-lname"><i class="fas fa-user"></i> Last Name</label>
+          <input type="text" id="account-lname" name="lname" />
+          <button type="button" class="update-btn" onclick="updateField('lname')">
+            <i class="fas fa-save"></i> Update
+          </button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="account-email"><i class="fas fa-envelope"></i> Email</label>
+        <input type="email" id="account-email" name="email" />
+        <button type="button" class="update-btn" onclick="updateField('email')">
+          <i class="fas fa-save"></i> Update
+        </button>
+      </div>
+
+      <div class="section-title">
+        <i class="fas fa-key"></i> Change Password
+      </div>
+      
+      <div class="form-group">
+        <label for="account-password"><i class="fas fa-lock"></i> Old Password</label>
+        <input type="password" id="account-password" name="password" />
+      </div>
+      
+      <div class="form-group">
+        <label for="account-new-password"><i class="fas fa-lock-open"></i> New Password</label>
+        <input type="password" id="account-new-password" name="new_password" />
+        <button type="button" class="update-btn" onclick="updatePassword()">
+          <i class="fas fa-key"></i> Update Password
+        </button>
+      </div>
+
+      <div class="submit-row">
+        <button type="button" class="cancel-btn" onclick="closeEditForm()">
+          <i class="fas fa-times"></i> Cancel
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <script>
+  // Global variables
+  let allUsers = []; // Store all users for search functionality
+
+  function fetchUsers(filter = 'all') {
+    showLoading("Loading users...");
+    
+    fetch(`fetch_users.php?filter=${filter}`)
+      .then(res => res.json())
+      .then(data => {
+        if (filter === 'all') {
+          allUsers = data; // Store all users when no filter is applied
+        }
+        displayUsers(data);
+      })
+      .catch(err => {
+        console.error("Fetch error:", err);
+        showError("Failed to load users. Please try again.");
+      });
+  }
+
+  function displayUsers(users) {
+    const container = document.getElementById("clientListContainer");
+    container.innerHTML = "";
+    
+    if (users.length === 0) {
+      container.innerHTML = `
+        <div class="no-clients">
+          <i class="fas fa-user-slash"></i>
+          <p>No clients found</p>
+        </div>
+      `;
+      return;
+    }
+
+    users.forEach(user => {
+      const card = document.createElement("div");
+      card.className = "client-card";
+      card.innerHTML = `
+        <div class="client-avatar">
+          <i class="fas fa-user-circle"></i>
+        </div>
+        <div class="client-info">
+          <h3>${user.fname} ${user.lname}</h3>
+          <p class="client-email"><i class="fas fa-envelope"></i> ${user.email}</p>
+          <p class="client-id"><i class="fas fa-id-card"></i> ID: ${user.user_id}</p>
+          <p class="client-role ${user.role}"><i class="fas fa-user-tag"></i> ${user.role.toUpperCase()}</p>
+        </div>
+        <div class="client-actions">
+          <button class="edit-btn" onclick="openEditForm(${user.user_id}, '${user.fname}', '${user.lname}', '${user.email}', '${user.role}')">
+            <i class="fas fa-edit"></i> Edit
+          </button>
+          <button class="delete-btn" onclick="confirmDeleteUser(${user.user_id}, '${user.fname} ${user.lname}')">
+            <i class="fas fa-trash-alt"></i> Delete
+          </button>
+        </div>
+      `;
+      container.appendChild(card);
+    });
+  }
+
+  function confirmDeleteUser(userId, userName) {
+    if (confirm(`Are you sure you want to delete ${userName}? This action cannot be undone.`)) {
+      deleteUser(userId);
+    }
+  }
+
+  function deleteUser(userId) {
+    showLoading("Deleting user...");
+    
+    const formData = new FormData();
+    formData.append("user_id", userId);
+
+    fetch("delete_user.php", {
+      method: "POST",
+      body: formData
+    })
+      .then(res => res.json())
+      .then(data => {
+        if (data.success) {
+          showSuccess(data.message);
+          fetchUsers(document.getElementById("userFilter").value);
+        } else {
+          showError(data.message);
+        }
+      })
+      .catch(err => {
+        console.error("Delete error:", err);
+        showError("Delete failed. Please try again.");
+      });
+  }
+
+  function openEditForm(userId, fname, lname, email, role) {
+    document.getElementById("edit-user-id").value = userId;
+    document.getElementById("account-fname").value = fname;
+    document.getElementById("account-lname").value = lname;
+    document.getElementById("account-email").value = email;
+    
+    // Set the role in the hidden field (if you add role editing)
+    document.getElementById("editModal").classList.add("active");
+  }
+
+  function closeEditForm() {
+    document.getElementById("editModal").classList.remove("active");
+    document.getElementById("account-password").value = "";
+    document.getElementById("account-new-password").value = "";
+  }
+
+  function updateField(fieldName) {
+    const userId = document.getElementById("edit-user-id").value;
+    const value = document.getElementById("account-" + fieldName).value;
+    
+    if (!value) {
+      showError("Please enter a value");
+      return;
+    }
+
+    const formData = new FormData();
+    formData.append("user_id", userId);
+    formData.append(fieldName, value);
+
+    showLoading("Updating user information...");
+    
+    fetch("admin-update_account.php", {
+      method: "POST",
+      body: formData
+    })
+      .then(res => res.json())
+      .then(data => {
+        if (data.success) {
+          showSuccess(data.message);
+          fetchUsers(document.getElementById("userFilter").value);
+          closeEditForm();
+        } else {
+          showError(data.message);
+        }
+      })
+      .catch(err => {
+        console.error("Error:", err);
+        showError("Update failed. Please try again.");
+      });
+  }
+
+  function updatePassword() {
+    const userId = document.getElementById("edit-user-id").value;
+    const oldPass = document.getElementById("account-password").value;
+    const newPass = document.getElementById("account-new-password").value;
+
+    if (!oldPass || !newPass) {
+      showError("Please fill out both password fields.");
+      return;
+    }
+
+    if (newPass.length < 8) {
+      showError("Password must be at least 8 characters long.");
+      return;
+    }
+
+    const formData = new FormData();
+    formData.append("user_id", userId);
+    formData.append("password", oldPass);
+    formData.append("new_password", newPass);
+
+    showLoading("Updating password...");
+    
+    fetch("admin-update_account.php", {
+      method: "POST",
+      body: formData
+    })
+      .then(res => res.json())
+      .then(data => {
+        if (data.success) {
+          showSuccess(data.message);
+          fetchUsers(document.getElementById("userFilter").value);
+          closeEditForm();
+        } else {
+          showError(data.message);
+        }
+      })
+      .catch(err => {
+        console.error("Password update error:", err);
+        showError("Password update failed. Please try again.");
+      });
+  }
+
+  // Search functionality
+  document.getElementById("clientSearch").addEventListener("input", function(e) {
+    const searchTerm = e.target.value.toLowerCase();
+    const cards = document.querySelectorAll(".client-card");
+    
+    cards.forEach(card => {
+      const text = card.textContent.toLowerCase();
+      card.style.display = text.includes(searchTerm) ? "flex" : "none";
+    });
+  });
+
+  // Filter functionality
+  document.getElementById("userFilter").addEventListener("change", function(e) {
+    fetchUsers(e.target.value);
+  });
+
+  // Initialize
+  document.addEventListener("DOMContentLoaded", function() {
+    fetchUsers();
+  });
+
+  document.addEventListener("keydown", function(event) {
+    if (event.key === "Escape") {
+      closeEditForm();
+    }
+  });
+
+  // Helper functions
+  function showLoading(message) {
+    // You can implement a better loading indicator here
+    console.log("Loading:", message);
+  }
+
+  function showSuccess(message) {
+    alert("Success: " + message);
+  }
+
+  function showError(message) {
+    alert("Error: " + message);
+  }
+</script>
+</body>
+</html>

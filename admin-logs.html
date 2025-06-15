@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Logs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rowdies&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="admin-logs.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <nav class="nav">
+    <!-- Hamburger Navigation Start -->
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+
+      <ul class="menu__box">
+        <li><a class="menu__item" href="admin-home.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a class="menu__item" href="admin-reservation.php"><i class="fas fa-calendar-check"></i> Reserve Rooms</a></li>
+        <li><a class="menu__item" href="admin-logs.html"><i class="fas fa-clipboard-list"></i> Logs</a></li>
+        <li><a class="menu__item" href="admin-available-rooms.html"><i class="fas fa-door-open"></i> Available Rooms</a></li>
+        <li><a class="menu__item" href="admin-client.html"><i class="fas fa-users"></i> Clients</a></li>
+        <li><a class="menu__item" href="admin-archive.html"><i class="fas fa-archive"></i> Archive</a></li>
+        <li><a class="menu__item" href="index.html"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+      </ul>
+    </div>
+    <!-- Hamburger Navigation End -->
+    
+    <!-- Logo -->
+    <div class="logo">
+      <img src="Photos/nu-logo-label.png" alt="NU Logo">
+    </div>
+  </nav>
+
+  <div class="main">
+    <h2 class="page-title"><i class="fas fa-clipboard-list"></i> Logs</h2>
+
+    <div class="search-box">
+      <i class="fas fa-search"></i>
+      <input type="text" id="searchInput" placeholder="Search logs...">
+    </div>
+
+    <div class="filter-buttons">
+      <button class="filter-btn all active"><i class="fas fa-list"></i> All</button>
+      <button class="filter-btn completed"><i class="fas fa-check-circle"></i> Completed</button>
+      <button class="filter-btn cancelled"><i class="fas fa-times-circle"></i> Cancelled</button>
+    </div>
+
+    <!-- Logs container - This was missing in your version -->
+    <div class="logs-container" id="logsContainer">
+      <!-- Log entries will be dynamically inserted here by JavaScript -->
+    </div>
+  </div>
+
+  <!-- Script should be placed just before closing body tag -->
+  <script src="admin-logs.js"></script>
+</body>
+</html>

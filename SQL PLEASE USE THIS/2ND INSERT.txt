@@ -1,0 +1,1105 @@
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(401, 'Monday', '09:00:00', '11:40:00', 'ABCOM16X', 'ABC231', 'R. BUELO', TRUE),
+(401, 'Monday', '13:00:00', '15:40:00', 'ABCOM16X', 'ABC231', 'C. RUIZ', TRUE),
+(401, 'Tuesday', '09:00:00', '11:00:00', 'ABCOM14X', 'ABC232', 'R. BUELO', TRUE),
+(401, 'Tuesday', '11:00:00', '13:00:00', 'BACTEL4X', 'ACT222', 'J. ABUEL', TRUE),
+(401, 'Tuesday', '13:00:00', '15:00:00', 'ABCOM14X', 'ABC232', 'C. RUIZ', TRUE),
+(401, 'Tuesday', '15:00:00', '17:00:00', 'COMM06ML', 'ABC241', 'M. QUILATAN', TRUE),
+(401, 'Wednesday', '09:00:00', '13:00:00', 'ABCOM28X', 'ABC221', 'R. BUELO', TRUE),
+(401, 'Thursday', '09:00:00', '11:00:00', 'ABCOM28X', 'ABC221', 'R. BUELO', TRUE),
+(401, 'Thursday', '01:00:00', '15:00:00', 'ABCOM14X', 'ABC231', 'C. RUIZ', TRUE),
+(401, 'Friday', '09:00:00', '11:00:00', 'ABCOM16X', 'ABC232', 'R. BUELO', TRUE),
+(401, 'Friday', '15:00:00', '17:00:00', 'COMM06ML', 'ABC241', 'M. QUILATAN', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(402, 'Monday', '07:00:00', '09:00:00', 'BMAREL2X', 'MAR242', 'L. SOLIS', TRUE),
+(402, 'Monday', '09:00:00', '11:00:00', 'BFINVESX', 'FIN221', 'J. MARASIGAN', TRUE),
+(402, 'Monday', '15:00:00', '17:00:00', 'BMADIMCX', 'MAR232', 'M. CANDELAZA', TRUE),
+(402, 'Tuesday', '07:00:00', '09:00:00', 'GEMMW01X', 'HRRM241', 'L. BARTICAN', TRUE),
+(402, 'Tuesday', '09:00:00', '11:00:00', 'GEMMW01X', 'HRM242', 'L. BARTICAN', TRUE),
+(402, 'Tuesday', '11:00:00', '13:00:00', 'BBMASCIX', 'HRM241', 'M. CANDALEZA', TRUE),
+(402, 'Tuesday', '13:00:00', '15:00:00', 'BBINCTAX', 'FIN231/HRM231', 'W. GADICHO', TRUE),
+(402, 'Tuesday', '15:00:00', '17:00:00', 'BBINCTAX', 'FIN231', 'W. GADICHO', TRUE),
+(402, 'Thursday', '07:00:00', '09:00:00', 'BMAREL2X', 'MAR242', 'L. SOLIS', TRUE),
+(402, 'Thursday', '09:00:00', '11:00:00', 'BFINVESX', 'FIN221', 'J. MARASIGAN', TRUE),
+(402, 'Thursday', '13:00:00', '15:00:00', 'BMADIMCX', 'MAR231', 'M. CANDELAZA', TRUE),
+(402, 'Thursday', '15:00:00', '17:00:00', 'BMADIMCX', 'MAR232', 'M. CANDALEZA', TRUE),
+(402, 'Friday', '07:00:00', '09:00:00', 'GEMMW01X', 'HRM241', 'L. BARTICAN', TRUE),
+(402, 'Friday', '09:00:00', '11:00:00', 'GEMMW01X', 'HRM242', 'L. BARTICAN', TRUE),
+(402, 'Friday', '11:00:00', '13:00:00', 'BBMASCIX', 'HRM241', 'M. CANDELAZA', TRUE),
+(402, 'Friday', '13:00:00', '15:00:00', 'BBINCTAX', 'FIN231/HRM231', 'W. GADICHO', TRUE),
+(402, 'Friday', '15:00:00', '17:00:00', 'BBINCTAX', 'FIN232', 'W. GADICHO', TRUE),
+(402, 'Saturday', '07:00:00', '11:00:00', 'BFCAPMAX', 'FIN231', 'I. CREENCIA', TRUE),
+(402, 'Saturday', '14:00:00', '16:00:00', 'BFFINMAX', 'FIN231', 'R. LAYONG', TRUE);
+
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(403, 'Monday', '07:00:00', '09:00:00', 'PSYCH17X', 'PSY221', 'K. BAY', TRUE),
+(403, 'Monday', '09:00:00', '13:00:00', 'PSYCHC1L', 'PSY221', 'G. TY', TRUE),
+(403, 'Monday', '13:00:00', '15:00:00', 'PSYCHC10X', 'PSY235', 'K. RACELA', TRUE),
+(403, 'Monday', '15:00:00', '17:00:00', 'PSYCHC19X', 'PSY233', 'H. CABARLE', TRUE),
+(403, 'Monday', '17:00:00', '19:00:00', 'PSYCHC18X', 'PSY223', 'D. BENDICIO', TRUE),
+(403, 'Tuesday', '09:00:00', '13:00:00', 'PSYCHC1L', 'PSY222', 'G. TY', TRUE),
+(403, 'Tuesday', '09:00:00', '13:00:00', 'PSYCHC07X', 'PSY236P', 'P. NICOLAS', TRUE),
+(403, 'Wednesday', '07:00:00', '11:00:00', 'PSYRC03X', 'PSY247P', 'J. CADAYONA', TRUE),
+(403, 'Wednesday', '11:00:00', '15:00:00', 'PSYRC07X', 'PSY236P', 'P. NICOLAS', TRUE),
+(403, 'Thursday', '07:00:00', '09:00:00', 'PSYCH17X', 'PSY221', 'K. BAY', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(403, 'Thursday', '09:00:00', '13:00:00', 'PSYCH1L', 'PSY221', 'G. TY', TRUE),
+(403, 'Thursday', '13:00:00', '15:00:00', 'PSYCH10X', 'PSY235', 'K. RACELA', TRUE),
+(403, 'Thursday', '15:00:00', '17:00:00', 'PSYCH19X', 'PSY223', 'H. CABARLE', TRUE),
+(403, 'Thursday', '17:00:00', '19:00:00', 'PSYCH18X', 'PSY223', 'D. BENDICIO', TRUE),
+(403, 'Friday', '09:00:00', '13:00:00', 'PSYCHC1L', 'PSY222', 'G. TY', TRUE),
+(403, 'Friday', '15:00:00', '17:00:00', 'PSYCH17X', 'PSY222', 'K. BAY', TRUE),
+(403, 'Friday', '17:00:00', '19:00:00', 'PSYCH09X', 'PSY232', 'P. NICOLAS', TRUE),
+(403, 'Saturday', '08:00:00', '12:00:00', 'PSYBC02X', 'PSY247P', 'W. BESAR', TRUE),
+(403, 'Friday', '13:00:00', '19:00:00', 'PSYBC2XL', 'PSY247P', 'W. BESAR', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(404, 'Monday', '07:00:00', '11:00:00', 'BAIACC1X', 'ACT241', 'M. SORIANO', TRUE),
+(404, 'Monday', '11:00:00', '13:00:00', 'BASTMGTX', 'MGA222', 'C. GAMO', TRUE),
+(404, 'Monday', '13:00:00', '15:00:00', 'BAMGECOX', 'ACT241', 'R. BARRERA', TRUE),
+(404, 'Monday', '15:00:00', '17:00:00', 'GEMMW01X', 'ACT241', 'J. BELTRAN', TRUE),
+(404, 'Tuesday', '07:00:00', '11:00:00', 'BAIACC1X', 'ACT242', 'M. LICERALDE', TRUE),
+(404, 'Tuesday', '11:00:00', '13:00:00', 'BACTEL4X', 'ACT221', 'J. AQUINO', TRUE),
+(404, 'Tuesday', '13:00:00', '15:00:00', 'BAMGECOX', 'ACT242', 'R. BARRERA', TRUE),
+(404, 'Tuesday', '15:00:00', '17:00:00', 'GEMMW01X', 'ACT242', 'L. BARTICAN', TRUE),
+(404, 'Thursday', '07:00:00', '11:00:00', 'BAIACC1X', 'ACT241', 'M. SORIANO', TRUE),
+(404, 'Thursday', '11:00:00', '13:00:00', 'BASTMGTX', 'MGA222', 'C. GAMO', TRUE),
+(404, 'Thursday', '13:00:00', '15:00:00', 'BAMGECOX', 'ACT242', 'R. BARRERA', TRUE),
+(404, 'Thursday', '15:00:00', '19:00:00', 'GEMMW01X', 'ACT241', 'J. BELTRAN', TRUE),
+(404, 'Friday', '07:00:00', '11:00:00', 'BAIACC1X', 'ACT242', 'M. LICERALDE', TRUE),
+(404, 'Friday', '11:00:00', '13:00:00', 'BACTEL4X', 'ACT221', 'J. AQUINO', TRUE),
+(404, 'Friday', '13:00:00', '15:00:00', 'BAMGECOX', 'ACT242', 'R. BARRERA', TRUE),
+(404, 'Friday', '15:00:00', '17:00:00', 'GEMMW01X', 'ACT242', 'L. BARTICAN', TRUE),
+(404, 'Saturday', '07:00:00', '11:00:00', 'BAGOBUSX', 'ACT227', 'M. SORIANO', TRUE),
+(404, 'Saturday', '12:00:00', '14:00:00', 'BASTRTAX', 'ACT227', 'M. SORIANO', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(405, 'Monday', '09:00:00', '13:00:00', 'CETHOS30', 'CIV231', 'J. ESCAÑO', TRUE),
+(405, 'Monday', '13:00:00', '17:00:00', 'CETHOS30', 'CIV232', 'J. ESCAÑO', TRUE),
+(405, 'Tuesday', '07:00:00', '11:00:00', 'ENENDA30', 'CIV222', 'M. JAPLIT', TRUE),
+(405, 'Tuesday', '11:00:00', '13:00:00', 'CESURV30', 'CIV232P', 'J. BACLAGAN', TRUE),
+(405, 'Tuesday', '13:00:00', '17:00:00', 'ENENDA30', 'CIV221', 'M. JAPLIT', TRUE),
+(405, 'Wednesday', '07:00:00', '11:00:00', 'CEQSRV1D', 'CIV221', 'J. TABOR', TRUE),
+(405, 'Wednesday', '11:00:00', '12:20:00', 'CEQSRV10', 'CIV221', 'J. TABOR', TRUE),
+(405, 'Wednesday', '13:00:00', '17:00:00', 'CEQSRV1D', 'CIV222', 'J. TABOR', TRUE),
+(405, 'Wednesday', '17:00:00', '18:20:00', 'CEQSRV10', 'CIV222', 'J. TABOR', TRUE),
+(405, 'Thursday', '09:00:00', '13:00:00', 'CETHOS3D', 'CIV231', 'J. ESCAÑO', TRUE),
+(405, 'Friday', '11:00:00', '13:00:00', 'CESURV30', 'CIV232P', 'J. BACLAGAN', TRUE),
+(405, 'Saturday', '08:00:00', '12:00:00', 'CEPRCD30', 'CIV221P', 'J. LEONERA', TRUE),
+(405, 'Saturday', '13:00:00', '15:00:00', 'CEPRCD3D', 'CIV221P', 'J. LEONERA', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(406, 'Monday', '07:00:00', '09:00:00', 'GEPCM01X', 'CPE241', 'J. VIDALLON', TRUE),
+(406, 'Monday', '11:00:00', '15:00:00', 'ENPHYS30', 'CPE241', 'D. ROMEROSA', TRUE),
+(406, 'Monday', '15:00:00', '17:00:00', 'ENICAL30', 'CPE241', 'J. OBICE', TRUE),
+(406, 'Tuesday', '07:00:00', '09:00:00', 'GEPCM01X', 'CPE241', 'J. OBICE', TRUE),
+(406, 'Tuesday', '15:00:00', '17:00:00', 'CPARCH30', 'CPE221', 'V. PADER', TRUE),
+(406, 'Tuesday', '17:00:00', '19:00:00', 'CPARCH30', 'CPE222', 'V. PADER', TRUE),
+(406, 'Wednesday', '11:00:00', '15:00:00', 'ECFBCK30', 'CPE220', 'D. ROMEROSA', TRUE),
+(406, 'Thursday', '15:00:00', '17:00:00', 'ENICAL30', 'CPE241', 'J. OBICE', TRUE),
+(406, 'Friday', '13:00:00', '15:00:00', 'ENICAL30', 'CPE232', 'J. OBICE', TRUE),
+(406, 'Friday', '15:00:00', '17:00:00', 'CPARCH30', 'CPE221', 'V. PADER', TRUE),
+(406, 'Friday', '17:00:00', '19:00:00', 'CPARCH30', 'CPE222', 'V. PADER', TRUE),
+(406, 'Saturday', '08:00:00', '12:00:00', 'ECDCOM30', 'CPE222', '   ', TRUE),
+(406, 'Saturday', '13:00:00', '15:00:00', 'CPELX130', 'CPE222', 'L.RAMOS', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(407, 'Monday', '07:00:00', '09:00:00', 'CCDISTR1', 'INF234', 'J. SACDALAN', TRUE),
+(407, 'Monday', '09:00:00', '11:00:00', 'CCQUAMET', 'INF233', 'M. REYES', TRUE),
+(407, 'Monday', '11:00:00', '13:00:00', 'CCDISTR1', 'INF241', 'A. VICENTE', TRUE),
+(407, 'Monday', '13:00:00', '15:00:00', 'CCDISTR1', 'INF242', 'A. VICENTE', TRUE),
+(407, 'Monday', '17:00:00', '19:00:00', 'CCDISTR1', 'INF245', 'R. ORPIANO', TRUE),
+(407, 'Tuesday', '09:00:00', '11:00:00', 'CCQUAMET', 'INF231', 'M. REYES', TRUE),
+(407, 'Tuesday', '11:00:00', '13:00:00', 'CCDISTR1', 'INF247', 'A. VICENTE', TRUE),
+(407, 'Tuesday', '13:00:00', '15:00:00', 'CCDISTR1', 'INF246', 'A. VICENTE', TRUE),
+(407, 'Wednesday', '13:00:00', '15:40:00', 'CTADWEBL', 'INF221', 'R. VIADO', TRUE),
+(407, 'Thursday', '07:00:00', '09:00:00', 'CCDISTR1', 'INF243', 'J. SACDALAN', TRUE),
+(407, 'Thursday', '09:00:00', '11:00:00', 'CCQUAMET', 'INF233', 'M. REYES', TRUE),
+(407, 'Thursday', '11:00:00', '13:00:00', 'CCDISTR1', 'INF241', 'A. VICENTE', TRUE),
+(407, 'Thursday', '13:00:00', '15:00:00', 'CCDISTR1', 'INF242', 'A. VICENTE', TRUE),
+(407, 'Thursday', '17:00:00', '19:00:00', 'CCDISTR1', 'INF245', 'R. ORPIANO', TRUE),
+(407, 'Friday', '09:00:00', '11:00:00', 'CCQUAMET', 'INF231', 'M. REYES', TRUE),
+(407, 'Friday', '11:00:00', '13:00:00', 'CCDISTR1', 'INF247', 'A. VICENTE', TRUE),
+(407, 'Friday', '13:00:00', '15:00:00', 'CCDISTR1', 'INF246', 'A. VICENTE', TRUE),
+(407, 'Saturday', '13:00:00', '15:40:00', 'CTAINASL', 'INF221', 'J. BUHAIN', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(408, 'Monday', '07:00:00', '09:00:00', 'GTELEC1X', 'TOU233', 'A. BOMBAES', TRUE),
+(408, 'Monday', '09:00:00', '11:00:00', 'GTTRAMGT', 'TOU233', 'G. TOLENTINO', TRUE),
+(408, 'Monday', '11:00:00', '13:00:00', 'GTHMULDV', 'TOU244', 'A. ESQUIERDO', TRUE),
+(408, 'Monday', '13:00:00', '15:00:00', 'GTHRSKMT', 'TOU244', 'J. UNICO', TRUE),
+(408, 'Monday', '15:00:00', '17:00:00', 'GTHRSKMT', 'TOU242', 'A. ESQUIERDO', TRUE),
+(408, 'Monday', '17:00:00', '19:00:00', 'GTHMULDV', 'TOU245', 'M. CONWI', TRUE),
+(408, 'Tuesday', '07:00:00', '09:00:00', 'GTHRSKMT', 'TOU243', 'A. ESQUIERDO', TRUE),
+(408, 'Tuesday', '09:00:00', '11:00:00', 'GTHMULDV', 'TOU243', 'P. VILLANUEVA', TRUE),
+(408, 'Tuesday', '11:00:00', '13:00:00', 'GTHFORL2', 'TOU222', 'A. BOMBAES', TRUE),
+(408, 'Tuesday', '13:00:00', '15:00:00', 'GTHMRKET', 'TOUG234', 'B. TOLEDO', TRUE),
+(408, 'Tuesday', '15:00:00', '17:00:00', 'GTELEC3X', 'TOU223', 'G. TOLENTINO', TRUE),
+(408, 'Wednesday', '07:00:00', '13:00:00', 'GTHMULDV', 'TOU241', 'G. BAUTISTA', TRUE),
+(408, 'Wednesday', '13:00:00', '17:00:00', 'GTHMULDV', 'TOU242', 'G. BAUTISTA', TRUE),
+(408, 'Thursday', '07:00:00', '09:00:00', 'GTELEC1X', 'TOU233', 'A. BOMBAES', TRUE),
+(408, 'Thursday', '09:00:00', '11:00:00', 'GTTRAMGT', 'TOU233', 'G. TOLENTINO', TRUE),
+(408, 'Thursday', '11:00:00', '13:00:00', 'GTHMULDV', 'TOU244', 'A. ESQUIERDO', TRUE),
+(408, 'Thursday', '13:00:00', '15:00:00', 'GTHRSKMT', 'TOU244', 'J. UNICO', TRUE),
+(408, 'Thursday', '15:00:00', '17:00:00', 'GTHRSKMT', 'TOU242', 'A. ESQUIERDO', TRUE),
+(408, 'Thursday', '17:00:00', '19:00:00', 'GTHMULDV', 'TOU245', 'M. CONWI', TRUE),
+(408, 'Friday', '09:00:00', '11:00:00', 'GTHMULDV', 'TOU243', 'P. VILLANUEVA', TRUE),
+(408, 'Friday', '11:00:00', '13:00:00', 'GTHFORL2', 'TOU222', 'A. BOMBAES', TRUE),
+(408, 'Friday', '13:00:00', '15:00:00', 'GTHMRKET', 'TOU234', 'B. TOLEDO', TRUE),
+(408, 'Friday', '15:00:00', '17:00:00', 'GTELEC3X', 'TOU223', 'G. TOLENTINO', TRUE),
+(408, 'Friday', '07:00:00', '12:20:00', 'GTPRAC01', 'TOU238P', 'L. MALABANAN', TRUE),
+(408, 'Friday', '15:00:00', '19:00:00', 'GTHQUALS', 'TOU237P', '   ', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(409, 'Monday', '07:00:00', '09:00:00', 'GEACMOX', 'ARC232', '   ', TRUE),
+(409, 'Monday', '09:00:00', '11:00:00', 'GEACMOX', 'ARC235', 'D. NOGA', TRUE),
+(409, 'Monday', '15:20:00', '18:00:00', 'AHISTOR4', 'ARC232', 'E. OLEGARIO', TRUE),
+(409, 'Monday', '18:00:00', '20:40:00', 'AHISTOR4', 'ARC245', 'E. OLEGARIO', TRUE),
+(409, 'Monday', '07:00:00', '09:00:00', 'GEPCM01X', 'ARC243', 'D. CONDEZ', TRUE),
+(409, 'Tuesday', '09:00:00', '11:00:00', 'ABTECN01', 'ARC243', 'B. BELMI', TRUE),
+(409, 'Tuesday', '16:20:00', '18:20:00', 'ABTECN01', 'ARC245', 'R. PAJO', TRUE),
+(409, 'Wednesday', '07:00:00', '09:40:00', 'AHISTOR1', 'ARC243', 'E. OLEGARIO', TRUE),
+(409, 'Wednesday', '10:00:00', '12:40:00', 'AHISTOR1', 'ARC2243', 'E. OLEGARIO', TRUE),
+(409, 'Wednesday', '14:20:00', '17:00:00', 'AHISTOR1', 'ARC244', 'R. MOJICA', TRUE),
+(409, 'Wednesday', '17:20:00', '20:00:00', 'ATHEORY2', 'ARC244', 'R. MOJICA', TRUE),
+(409, 'Thursday', '07:00:00', '09:00:00', 'GEACMOX', 'ARC232', '   ', TRUE),
+(409, 'Thursday', '09:00:00', '11:00:00', 'GEACMOX', 'ARC235', 'D. NOGA', TRUE),
+(409, 'Thursday', '14:40:00', '17:20:00', 'AHISTOR4', 'ARC234', 'M. ILANO', TRUE),
+(409, 'Thursday', '17:20:00', '19:40:00', 'AHISTOR3', 'ARC244', 'B. BELMI', TRUE),
+(409, 'Friday', '07:00:00', '09:00:00', 'GEPCM01X', 'ARC243', 'E. LAYUG', TRUE),
+(409, 'Friday', '16:20:00', '18:20:00', 'ABTECN01', 'ARC245', 'R. PAJO', TRUE),
+(409, 'Saturday', '07:00:00', '11:00:00', 'AALGTRIG', 'ARC244P', 'M. RUPIDO', TRUE),
+(409, 'Saturday', '13:00:00', '17:00:00', 'APLANN01', 'ARC223', '   ', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(410, 'Monday', '07:00:00', '09:40:00', 'CCOBJPGL', 'INF242', 'M. GALO', TRUE),
+(410, 'Monday', '10:00:00', '12:40:00', 'CCOBJPGL', 'INF243', 'J. SACDALAN', TRUE),
+(410, 'Monday', '13:00:00', '15:40:00', 'CCOBJPGL', 'INF245', 'J. SISON', TRUE),
+(410, 'Tuesday', '07:00:00', '09:40:00', 'CTFDMBSL', 'INF233', 'F. ATIENZA', TRUE),
+(410, 'Tuesday', '13:00:00', '15:40:00', 'CTFDMBSL', 'INF231', 'S. LUMBOG', TRUE),
+(410, 'Thursday', '07:00:00', '09:40:00', 'CTFDMBSL', 'INF235', 'F. ATIENZA', TRUE),
+(410, 'Thursday', '10:00:00', '12:40:00', 'CCOBJPGL', 'INF244', 'P. VILLANUEVA', TRUE),
+(410, 'Thursday', '13:00:00', '15:40:00', 'CCOBJPGL', 'INF241', 'M. GALO', TRUE),
+(410, 'Friday', '07:00:00', '09:40:00', 'CCOBJPGL', 'INF247', 'J. SACDALAN', TRUE),
+(410, 'Friday', '10:00:00', '12:40:00', 'CTFDMBSL', 'INF246', 'S. LUMBOG', TRUE),
+(410, 'Thursday', '13:00:00', '15:40:00', 'CTFDMBSL', 'INF232', 'F. ATIENZA', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(411, 'Monday', '07:00:00', '09:00:00', 'CETRAN30', 'CIV221P', 'M. JAPLIT', TRUE),
+(411, 'Monday', '09:00:00', '11:00:00', 'BASTBUSX', 'ACT227', 'O. MANALANG', TRUE),
+(411, 'Monday', '11:00:00', '13:00:00', 'CETRAN30', 'CIV222P', 'M. JAPLIT', TRUE),
+(411, 'Monday', '13:00:00', '15:00:00', 'ENEEC030', 'CIV231P', 'A. ALBLODORA', TRUE),
+(411, 'Monday', '15:00:00', '17:00:00', 'ENEEC030', 'CIV232P', 'A. ALBLODORA', TRUE),
+(411, 'Tuesday', '07:00:00', '11:00:00', 'CEQSRV10', 'CIV223', 'J. DELA CRUZ', TRUE),
+(411, 'Tuesday', '11:00:00', '12:20:00', 'CEQSRV10', 'CIV223', 'J. DELA CRUZ', TRUE),
+(411, 'Tuesday', '13:00:00', '15:00:00', 'ENITV31D', 'CIV244P', 'J. LANDICHO', TRUE),
+(411, 'Tuesday', '15:00:00', '19:00:00', 'MEUTI230', 'CIV231P', 'J. DELA CRUZ', TRUE),
+(411, 'Wednesday', '13:00:00', '15:40:00', 'CEGLGY20', 'CIV244', 'A. ALBLODORA', TRUE),
+(411, 'Thursday', '07:00:00', '09:00:00', 'CETRAN30', 'CIV221P', 'M. JAPLIT', TRUE),
+(411, 'Thursday', '09:00:00', '11:00:00', 'BASTBUSX', 'ACT227', 'O. MANALANG', TRUE),
+(411, 'Thursday', '11:00:00', '13:00:00', 'CETRAN30', 'CIV222P', 'M. JAPLIT', TRUE),
+(411, 'Thursday', '13:00:00', '15:00:00', 'ENEEC030', 'CIV231P', 'A. ALBLODORA', TRUE),
+(411, 'Thursday', '15:00:00', '17:00:00', 'ENEEC030', 'CIV232P', 'A. ALBLODORA', TRUE),
+(411, 'Friday', '07:00:00', '11:00:00', 'CEITG11D', 'CIV232A', 'R. VIADO', TRUE),
+(411, 'Friday', '13:00:00', '15:40:00', 'CTADWEBL', 'INF224', 'R. VIADO', TRUE),
+(411, 'Saturday', '07:00:00', '11:00:00', 'CEITG31D', 'CIV211AT', 'M. RUPIDO', TRUE),
+(411, 'Saturday', '12:00:00', '16:00:00', 'CEITG31D', 'CIV211T', 'M. RUPIDO', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(412, 'Monday', '07:00:00', '09:00:00', 'GTSTOUR', 'TOU232', 'C. MARTINZO', TRUE),
+(412, 'Monday', '09:00:00', '11:00:00', 'GTSTOUR', 'TOU231', 'C. MARTINZO', TRUE),
+(412, 'Monday', '11:00:00', '13:00:00', 'GTSTOUR', 'TOU233', 'C. MARTINZO', TRUE),
+(412, 'Monday', '13:00:00', '15:00:00', 'GTSTOUR', 'HMA247', 'R. DELOS REYES', TRUE),
+(412, 'Monday', '15:00:00', '17:00:00', 'GTHRSKMT', 'TOU245', 'J. UNICO', TRUE),
+(412, 'Tuesday', '07:00:00', '09:00:00', 'GEENTOIX', 'TOU232', 'L. SOLIS', TRUE),
+(412, 'Tuesday', '09:00:00', '11:00:00', 'GEENTOIX', 'TOU233', 'L. SOLIS', TRUE),
+(412, 'Tuesday', '11:00:00', '13:00:00', 'BASTRAMX', 'TOU232', 'J. ARCAYOS', TRUE),
+(412, 'Tuesday', '13:00:00', '15:00:00', 'GTHRSKMT', 'TOU247', 'J. ARCAYOS', TRUE),
+(412, 'Tuesday', '15:00:00', '17:00:00', 'GEENTOIX', 'TOU235', 'A. TAYSON', TRUE),
+(412, 'Tuesday', '17:00:00', '19:00:00', 'BASTRAMX', 'TOU234', 'J. MARASIGAN', TRUE),
+(412, 'Wednesday', '09:00:00', '13:00:00', 'GTHMRKET', 'TOU231', 'J. BANTA', TRUE),
+(412, 'Wednesday', '15:00:00', '17:00:00', 'GTHMRKET', 'TOU232', 'J. BANTA', TRUE),
+(412, 'Thursday', '07:00:00', '09:00:00', 'GTSTOUR', 'TOU232', 'C. MARTINZO', TRUE),
+(412, 'Thursday', '09:00:00', '11:00:00', 'GTSTOUR', 'TOU231', 'C. MARTINZO', TRUE),
+(412, 'Thursday', '11:00:00', '13:00:00', 'GTLECIX', 'TOU233', 'A. BOMBAES', TRUE),
+(412, 'Thursday', '13:00:00', '15:00:00', 'GTHRSKMT', 'TOU245', 'J. UNICO', TRUE),
+(412, 'Friday', '11:00:00', '13:00:00', 'BASTRAMX', 'TOU232', 'J. ARCAYOS', TRUE),
+(412, 'Friday', '13:00:00', '17:00:00', 'GTLECIX', 'TOU231', 'J. ARCAYOS', TRUE),
+(412, 'Friday', '17:00:00', '19:00:00', 'BASTRAMX', 'TOU234', 'J. MARASIGAN', TRUE),
+(412, 'Saturday', '07:00:00', '11:00:00', 'GHTMLUVD', 'TOU248', '   ', TRUE),
+(412, 'Saturday', '13:00:00', '17:00:00', 'GHTMLUVD', 'TOU247', 'M. CONWE', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(413, 'Monday', '07:00:00', '09:00:00', 'GTTRAMGT', 'TOU231', 'G. TOLENTINO', TRUE),
+(413, 'Monday', '09:00:00', '11:00:00', 'GTTRAMGT', 'TOU232', 'M. CONWI', TRUE),
+(413, 'Monday', '11:00:00', '13:00:00', 'GTTRAMGT', 'TOU234', 'M. CONWI', TRUE),
+(413, 'Monday', '13:00:00', '15:00:00', 'GTELEC3X', 'TOU224', 'G. TOLENTINO', TRUE),
+(413, 'Monday', '15:00:00', '17:00:00', 'GTSTOUR', 'TOU235', 'M. CONWI', TRUE),
+(413, 'Monday', '17:00:00', '19:00:00', 'GTELEC3X', 'TOU222', 'J. UNICO', TRUE),
+(413, 'Tuesday', '07:00:00', '09:00:00', 'BASTRAMX', 'TOU233', 'J. ARCAYOS', TRUE),
+(413, 'Tuesday', '09:00:00', '11:00:00', 'GTSTOUR', 'TOU234', 'C. MARTINZO', TRUE),
+(413, 'Tuesday', '11:00:00', '13:00:00', 'BASTRAMX', 'TOU235', 'M. LOGATOC', TRUE),
+(413, 'Tuesday', '13:00:00', '15:00:00', 'GTHPADEV', 'TOU221', 'C. MARTINZO', TRUE),
+(413, 'Tuesday', '15:00:00', '17:00:00', 'GTHRSKMT', 'TOU241', '   ', TRUE),
+(413, 'Tuesday', '17:00:00', '19:00:00', 'GTHPADEV', 'TOU223', 'J. BANTA', TRUE),
+(413, 'Wednesday', '07:00:00', '11:00:00', 'GTHFORL2', 'TOU221', 'A. BOMBAES', TRUE),
+(413, 'Wednesday', '13:00:00', '17:00:00', 'GTELEC3X', 'TOU232', 'G. TOLENTINO', TRUE),
+(413, 'Thursday', '07:00:00', '09:00:00', 'GTTRAMGT', 'TOU231', 'G. TOLENTINO', TRUE),
+(413, 'Thursday', '09:00:00', '11:00:00', 'GTSTOUR', 'TOU232', 'M. CONWI', TRUE),
+(413, 'Thursday', '11:00:00', '13:00:00', 'GTTRAMGT', 'TOU234', 'M. CONWI', TRUE),
+(413, 'Thursday', '13:00:00', '15:00:00', 'GTHPADEV', 'TOU224', 'G. TOLENTINO', TRUE),
+(413, 'Thursday', '15:00:00', '17:00:00', 'GTSTOUR', 'TOU235', '   ', TRUE),
+(413, 'Thursday', '17:00:00', '19:00:00', 'GTHPADEV', 'TOU222', 'J. UNICO', TRUE),
+(413, 'Friday', '07:00:00', '09:00:00', 'BASTRAMX', 'TOU233', 'J. ARCAYOS', TRUE),
+(413, 'Friday', '09:00:00', '11:00:00', 'GTSTOUR', 'TOU234', 'C. MARTINZO', TRUE),
+(413, 'Friday', '11:00:00', '13:00:00', 'BASTRAMX', 'TOU235', 'M. LOGATOC', TRUE),
+(413, 'Friday', '13:00:00', '15:00:00', 'GTHPADEV', 'TOU221', 'C. MARTINZO', TRUE),
+(413, 'Friday', '15:00:00', '17:00:00', 'GTHRSKMT', 'TOU241', 'J. ENRIQUEZ', TRUE),
+(413, 'Friday', '17:00:00', '19:00:00', 'GTHPADEV', 'TOU223', 'J. BANTA', TRUE),
+(413, 'Saturday', '07:00:00', '13:40:00', 'GTELEC3X', 'TOU223', '', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(415, 'Monday', '07:00:00', '11:00:00', 'GTTRAMGT', 'TOU235', 'G. BAUTISTA', TRUE),
+(415, 'Monday', '11:00:00', '13:00:00', 'PSYRC05X', 'PSY241', 'A. ALBANIA', TRUE),
+(415, 'Monday', '13:00:00', '15:00:00', 'PSYCH18X', 'PSY222', 'D. BENDICIO', TRUE),
+(415, 'Monday', '15:00:00', '17:00:00', 'PSYCHOX', 'PSY234', 'P. NICOLAS', TRUE),
+(415, 'Tuesday', '11:00:00', '13:00:00', 'PSYCH17X', 'PSY223', 'K. BAY', TRUE),
+(415, 'Tuesday', '13:00:00', '15:00:00', 'GTHFORL2', 'TOU224', 'A. BOMBAES', TRUE),
+(415, 'Tuesday', '15:00:00', '17:00:00', 'BAPAUD2X', 'ACT227', 'G. MAPA', TRUE),
+(415, 'Wednesday', '11:00:00', '15:00:00', 'NSG2Y02X', 'PSY233', 'J. GONZALES', TRUE),
+(415, 'Thursday', '11:00:00', '13:00:00', 'PSYRC05X', 'PSY241', 'A. ALBANIA', TRUE),
+(415, 'Thursday', '13:00:00', '15:00:00', 'PSYCH18X', 'PSY222', 'D. BENDICIO', TRUE),
+(415, 'Thursday', '15:00:00', '17:00:00', 'PSYCHOX', 'PSY234', 'P. NICOLAS', TRUE),
+(415, 'Thursday', '17:00:00', '21:00:00', 'PSYRCO5X', 'PSY245', 'J. PINGGOLIO', TRUE),
+(415, 'Friday', '11:00:00', '13:00:00', 'PSYCH17X', 'PSY223', 'K. BAY', TRUE),
+(415, 'Friday', '15:00:00', '17:00:00', 'BAPAUD2X', 'ACT227', 'G. MAPA', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(416, 'Monday', '09:00:00', '13:00:00', 'PSYCH1L', 'PSY223', 'K. BAY', TRUE),
+(416, 'Monday', '13:00:00', '15:00:00', 'PSYRC05X', 'PSY244', 'A. ALBANIA', TRUE),
+(416, 'Monday', '15:00:00', '17:00:00', 'GEENTO1X', 'PSY235', 'A. TAYSON', TRUE),
+(416, 'Monday', '17:00:00', '19:00:00', 'PSYCH19X', 'PSY221', 'H. CABARLE', TRUE),
+(416, 'Tuesday', '11:00:00', '13:00:00', 'PSYCHOX', 'PSY233', 'P. NICOLAS', TRUE),
+(416, 'Tuesday', '13:00:00', '16:00:00', 'PSYC10XL', 'PSY233', 'J. CADAYONA', TRUE),
+(416, 'Wednesday', '11:00:00', '15:00:00', 'NSG2Y02X', 'PSY234', 'S. FIGALAN', TRUE),
+(416, 'Thursday', '08:00:00', '13:00:00', 'PSYCH1L', 'PSY223', 'K. BAY', TRUE),
+(416, 'Thursday', '13:00:00', '15:00:00', 'PSYRC05X', 'PSY244', 'A. ALBANIA', TRUE),
+(416, 'Thursday', '17:00:00', '19:00:00', 'PSYCH19X', 'PSY221', 'H. CABARLE', TRUE),
+(416, 'Friday', '11:00:00', '13:00:00', 'PSYCHOX', 'PSY233', 'P. NICOLAS', TRUE),
+(416, 'Friday', '13:00:00', '16:00:00', 'PSYC10XL', 'PSY233', 'J. CADAYONA', TRUE),
+(416, 'Friday', '17:00:00', '21:00:00', 'PSYRC05X', 'PSY243', 'J. CADAYONA', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(417, 'Monday', '07:00:00', '09:00:00', 'GEMMW01X', 'MAR241', 'D. ESTACIO', TRUE),
+(417, 'Monday', '09:00:00', '11:00:00', 'BBSTATSX', 'MAR232', 'J. CADAYONA', TRUE),
+(417, 'Monday', '11:00:00', '13:00:00', 'BFINVSEX', 'FIN222', 'J. MARASIGAN', TRUE),
+(417, 'Monday', '13:00:00', '15:00:00', 'BMADIMCX', 'MAR234', 'J. ARCAYOS', TRUE),
+(417, 'Monday', '15:00:00', '17:00:00', 'BMADIMCX', 'MAR233', 'J. ARCAYOS', TRUE),
+(417, 'Tuesday', '07:00:00', '09:00:00', 'GEMMW01X', 'FIN241', 'J. BELTRAN', TRUE),
+(417, 'Tuesday', '09:00:00', '11:00:00', 'BBMASCIX', 'FIN241', 'M. CANDELAZA', TRUE),
+(417, 'Tuesday', '11:00:00', '13:00:00', 'BBGOGOVX', 'FIN222', 'Y. BAI', TRUE),
+(417, 'Tuesday', '15:00:00', '17:00:00', 'BFINRES', 'FIN222', 'L. SOLIS', TRUE),
+(417, 'Tuesday', '17:00:00', '19:00:00', 'BHRMLRNX', 'HRM231', 'W. GADICHO', TRUE),
+(417, 'Thursday', '07:00:00', '09:00:00', 'GEMMW01X', 'MAR241', 'D. ESTACIO', TRUE),
+(417, 'Thursday', '09:00:00', '11:00:00', 'BBSTATSX', 'MAR232', 'J. CADAYONA', TRUE),
+(417, 'Thursday', '11:00:00', '13:00:00', 'BFINVSEX', 'FIN222', 'J. MARASIGAN', TRUE),
+(417, 'Thursday', '13:00:00', '15:00:00', 'BMADIMCX', 'MAR234', 'J. ARCAYOS', TRUE),
+(417, 'Thursday', '15:00:00', '17:00:00', 'BMADIMCX', 'MAR233', 'J. ARCAYOS', TRUE),
+(417, 'Friday', '07:00:00', '09:00:00', 'GEMMW01X', 'FIN241', 'J. BELTRAN', TRUE),
+(417, 'Friday', '09:00:00', '11:00:00', 'BBMASCIX', 'FIN241', 'M. CANDELAZA', TRUE),
+(417, 'Friday', '11:00:00', '13:00:00', 'BBGOGOVX', 'FIN222', 'Y. BAI', TRUE),
+(417, 'Friday', '15:00:00', '17:00:00', 'BFINRES', 'FIN222', 'L. SOLIS', TRUE),
+(417, 'Friday', '17:00:00', '19:00:00', 'BHRMLRNX', 'HRM231', 'W. GADICHO', TRUE),
+(417, 'Saturday', '07:00:00', '11:00:00', 'BFFINMAX', 'FIN232', 'R. LAYONG', TRUE),
+(417, 'Saturday', '12:00:00', '16:00:00', 'BFCAPMAX', 'FIN232', 'I. CREENCIA', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(418, 'Monday', '07:00:00', '08:00:00', 'BAMNSCIX', 'ACT231', 'R. GAGALAC', TRUE),
+(418, 'Monday', '09:00:00', '11:00:00', 'BADVAC1X', 'ACT231', 'G. MAPA', TRUE),
+(418, 'Monday', '11:00:00', '13:00:00', 'BAMGECOX', 'ACT249', 'R. BARRERA', TRUE),
+(418, 'Monday', '13:00:00', '15:00:00', 'BAFINMAX', 'ACT231', 'D. MALABANAN', TRUE),
+(418, 'Monday', '15:00:00', '17:00:00', 'BAPRMGTX', 'MGA222', 'C. GAMO', TRUE),
+(418, 'Monday', '17:00:00', '19:00:00', 'BASTBUSX', 'MGA222', 'J. MILLORA', TRUE),
+(418, 'Tuesday', '09:00:00', '11:00:00', 'BATHEOAX', 'ACT247', 'G. MAPA', TRUE),
+(418, 'Tuesday', '11:00:00', '13:00:00', 'BADVAC3X', 'MGA222', 'J. CRUZ', TRUE),
+(418, 'Tuesday', '13:00:00', '15:00:00', 'GEMMW01X', 'ACT247', 'L. BARTICAN', TRUE),
+(418, 'Tuesday', '15:00:00', '17:00:00', 'BAFACR1X', 'ACT247', 'L. DEVESA', TRUE),
+(418, 'Tuesday', '17:00:00', '19:00:00', 'BAMGECOX', 'ACT247', 'R. BARRERA', TRUE),
+(418, 'Thursday', '07:00:00', '09:00:00', 'BAMNSCIX', 'ACT231', 'R. GAGALAC', TRUE),
+(418, 'Thursday', '09:00:00', '11:00:00', 'BADVAC1X', 'ACT231', 'G. MAPA', TRUE),
+(418, 'Thursday', '11:00:00', '13:00:00', 'BAMGECOX', 'ACT249', 'R. BARRERA', TRUE),
+(418, 'Thursday', '13:00:00', '15:00:00', 'BAFINMAX', 'ACT231', 'D. MALABANAN', TRUE),
+(418, 'Thursday', '15:00:00', '17:00:00', 'BAPRMGTX', 'MGA222', 'C. GAMO', TRUE),
+(418, 'Thursday', '17:00:00', '19:00:00', 'BASTBUSX', 'MGA222', 'J. MILLORA', TRUE),
+(418, 'Friday', '09:00:00', '11:00:00', 'BATHEOAX', 'ACT231', 'G. MAPA', TRUE),
+(418, 'Friday', '11:00:00', '13:00:00', 'BADVAC3X', 'MGA222', 'J. CRUZ', TRUE),
+(418, 'Friday', '13:00:00', '15:00:00', 'GEMMW01X', 'ACT247', 'L. BARTICAN', TRUE),
+(418, 'Friday', '15:00:00', '17:00:00', 'BAFACR1X', 'ACT247', 'L. DEVESA', TRUE),
+(418, 'Friday', '17:00:00', '19:00:00', 'BAMGECOX', 'ACT247', 'R. BARRERA', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(419, 'Monday', '07:00:00', '09:00:00', 'CESTAT30', 'CIV231P', 'M. ALINGOG', TRUE),
+(419, 'Monday', '09:00:00', '11:00:00', 'CESTAT30', 'CIV232P', 'M. ALINGOG', TRUE),
+(419, 'Monday', '13:00:00', '15:00:00', 'ENICAL30', 'CIV243', 'J. JAVIER', TRUE),
+(419, 'Monday', '17:00:00', '21:00:00', 'ENDEQ3O', 'CIV231P', 'M. MARTINEZ', TRUE),
+(419, 'Tuesday', '07:00:00', '09:00:00', 'ENICAL30', 'CIV242', 'J. JAVIER', TRUE),
+(419, 'Tuesday', '11:00:00', '13:00:00', 'ENICAL30', 'CIV241', 'J. JAVIER', TRUE),
+(419, 'Tuesday', '13:00:00', '15:00:00', 'ENPHYS30', 'CIV241', 'D. BUENAVENTURA', TRUE),
+(419, 'Tuesday', '15:00:00', '17:00:00', 'ENPHYS30', 'CIV242', 'D. BUENAVENTURA', TRUE),
+(419, 'Wednesday', '07:00:00', '11:00:00', 'EEUTI130', 'CIV232', 'J. JAVIER', TRUE),
+(419, 'Wednesday', '13:00:00', '17:00:00', 'EEUTI130', 'CIV231', 'J. JAVIER', TRUE),
+(419, 'Thursday', '07:00:00', '09:00:00', 'GEPCMO1X', 'CIV242', 'G. BAYRAN', TRUE),
+(419, 'Thursday', '09:00:00', '11:00:00', 'GEPCMO1X', 'CIV241', 'E. LAYUG', TRUE),
+(419, 'Thursday', '17:00:00', '19:00:00', 'GEPCMO01X', 'CIV244', 'C. SANTIAGO', TRUE),
+(419, 'Friday', '07:00:00', '09:00:00', 'ENICAL30', 'CIV242', 'J. JAVIER', TRUE),
+(419, 'Friday', '11:00:00', '13:00:00', 'ENICAL30', 'CIV241', 'J. JAVIER', TRUE),
+(419, 'Friday', '13:00:00', '15:00:00', 'ENPHYS30', 'CIV241', 'D. BUENAVENTURA', TRUE),
+(419, 'Friday', '15:00:00', '17:00:00', 'ENPHYS30', 'CIV242', 'D. BUENAVENTURA', TRUE),
+(419, 'Saturday', '17:00:00', '21:00:00', 'ASTRUCT', 'ARC223P', '   ', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(420, 'Monday', '13:00:00', '15:00:00', 'CESTAT30', 'CIV233O', 'M. ALINGOG', TRUE),
+(420, 'Tuesday', '07:00:00', '09:40:00', 'CEMDEF40', 'CIV230P', 'D. BUENAVENTURA', TRUE),
+(420, 'Tuesday', '10:00:00', '12:40:00', 'CEMDEF40', 'CIV231P', 'K. LOPEZ', TRUE),
+(420, 'Tuesday', '13:00:00', '15:40:00', 'CEMDEF40', 'CIV232P', 'J. ESCANO', TRUE),
+(420, 'Wednesday', '13:00:00', '17:00:00', 'ENENDA30', 'CIV223', 'J. DELA CRUZ', TRUE),
+(420, 'Thursday', '07:00:00', '09:00:00', 'GEACM01X', 'CIV231', 'E. LAYUG', TRUE),
+(420, 'Thursday', '13:00:00', '15:00:00', 'CESTAT30', 'CIV233P', 'M. ALINGOG', TRUE),
+(420, 'Thursday', '13:00:00', '15:00:00', 'CESTAT30', 'CIV233P', 'M. ALINGOG', TRUE),
+(420, 'Thursday', '17:00:00', '19:40:00', 'FSOLIMON', 'CIV244P', '   ', TRUE),
+(420, 'Friday', '07:00:00', '09:40:00', 'CEMDEF40', 'CIV230P', 'D. BUENAVENTURA', TRUE),
+(420, 'Friday', '10:00:00', '12:40:00', 'CEMDEF40', 'CIV231P', 'K. LOPEZ', TRUE),
+(420, 'Friday', '13:00:00', '15:40:00', 'CEMDEF40', 'CIV232P', 'J. ESCANO', TRUE),
+(420, 'Saturday', '17:00:00', '21:00:00', 'ASTENGM', 'ARC225P', 'M. MARTINEZ', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(421, 'Monday', '07:00:00', '09:20:00', 'PATHFIT2', 'SECA-ARC241', 'R. TANDOG', TRUE),
+(421, 'Monday', '10:00:00', '12:20:00', 'PATHFIT2', 'SECA-ARC242', 'E. ALBA', TRUE),
+(421, 'Monday', '13:00:00', '15:20:00', 'PATHFIT2', 'SBMA-MAR241', 'E. ALBA', TRUE),
+(421, 'Monday', '04:00:00', '06:20:00', 'PATHFIT2', 'SBMA-MAR243', 'A. AQUINO', TRUE),
+(421, 'Tuesday', '07:00:00', '09:20:00', 'PATHFIT2', 'SECA-ARC241', 'R. TANDOG', TRUE),
+(421, 'Tuesday', '13:00:00', '15:20:00', 'PATHFIT2', 'SBMA-FIN241', 'R. TANDOG', TRUE),
+(421, 'Friday', '07:00:00', '09:20:00', 'PATHFIT2', 'SBMA-ARC243', 'R. TANDOG', TRUE),
+(421, 'Friday', '10:00:00', '12:20:00', 'PATHFIT2', 'SECA-ARC244', 'J. JARO', TRUE),
+(421, 'Friday', '04:00:00', '06:20:00', 'PATHFIT2', 'SBMA-MAR244', 'R. TANDOG', TRUE),
+(421, 'Saturday', '07:00:00', '09:20:00', 'PATHFIT2', 'SECA-CPE242', 'R. TANDOG', TRUE),
+(421, 'Saturday', '10:00:00', '12:20:00', 'PATHFIT2', 'SECA-ARC45', 'A. AQUINO', TRUE),
+(421, 'Saturday', '13:00:00', '15:20:00', 'PATHFIT2', 'SBMA-FIN242', 'A. AQUINO', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(422, 'MONDAY', '07:00:00', '09:00:00', 'PSYCR04X', 'PSY244', 'K. MERCADO', TRUE),
+(422, 'MONDAY', '09:00:00', '11:00:00', 'BMAREL4X', 'MAR223', 'J. ARCAYOS', TRUE),
+(422, 'MONDAY', '11:00:00', '13:00:00', 'PSYCH09X', 'PSY231', 'P. NICOLAS', TRUE),
+(422, 'MONDAY', '13:00:00', '15:00:00', 'PSYCR04X', 'PSY241', 'K. MERCADO', TRUE),
+(422, 'MONDAY', '15:00:00', '17:00:00', 'PSYCH18X', 'PSY221', 'D. BENDICIO', TRUE),
+(422, 'MONDAY', '17:00:00', '19:00:00', 'PSYCR04X', 'PSY242', 'J. GONZALES', TRUE),
+(422, 'Tuesday', '07:00:00', '09:00:00', 'PSYCR04X', 'PSY246', 'J. CADAYONA', TRUE),
+(422, 'Tuesday', '09:00:00', '11:00:00', 'BAPAUD1X', 'PSY228', 'I. DEVESA', TRUE),
+(422, 'Tuesday', '15:00:00', '17:00:00', 'PSYCR04X', 'PSY243', 'K. MERCADO', TRUE),
+(422, 'Wednesday', '15:00:00', '17:00:00', 'NSGZT02X', 'PSY246', 'M. BATTAD', TRUE),
+(422, 'Thursday', '07:00:00', '09:00:00', 'PSYCR04X', 'PSY244', 'K. MERCADO', TRUE),
+(422, 'Thursday', '09:00:00', '11:00:00', 'BAPAUD1X', 'ACT228', 'J. ARCAYOS', TRUE),
+(422, 'Thursday', '11:00:00', '13:00:00', 'PSYCR04X', 'PSY231', 'P. NICOLAS', TRUE),
+(422, 'Thursday', '13:00:00', '15:00:00', 'PSYCR04X', 'PSY241', 'K. MERCADO', TRUE),
+(422, 'Thursday', '15:00:00', '17:00:00', 'PSYCH18X', 'PSY221', 'D. BENDICIO', TRUE),
+(422, 'Thursday', '15:00:00', '19:00:00', 'PSYCR04X', 'PSY242', 'J. GONZALES', TRUE),
+(422, 'Friday', '07:00:00', '09:00:00', 'PSYCR04X', 'PSY246', 'J. CADAYONA', TRUE),
+(422, 'Friday', '09:00:00', '11:00:00', 'BAPAUD1X', 'ACT228', 'I. DEVESA', TRUE),
+(422, 'Friday', '15:00:00', '17:00:00', 'PSYCR04X', 'PSY243', 'K. MERCADO', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(423, 'Monday', '09:00:00', '11:00:00', 'GEMMW01X', 'MAR242', 'D. ESTACIO', TRUE),
+(423, 'Monday', '11:00:00', '13:00:00', 'PSYRC04X', 'PSY245', 'K. MERCADO', TRUE),
+(423, 'Monday', '13:00:00', '15:00:00', 'GEENT01X ', 'PSY232', 'A. TAYSON', TRUE),
+(423, 'Monday', '15:00:00', '17:00:00', 'PSYRC05X', 'PSY242', 'D. ESTACIO', TRUE),
+(423, 'Tuesday', '07:00:00', '09:00:00', 'GEENT01X', 'PSY234', 'A. TAYSON', TRUE),
+(423, 'Tuesday', '11:00:00', '13:00:00', 'GEENT01X', 'PSY231', 'A. TAYSON', TRUE),
+(423, 'Tuesday', '51:00:00', '17:00:00', 'BMFEASBX', 'MAR221', 'S. JOCSON', TRUE),
+(423, 'Tuesday', '17:00:00', '19:00:00', 'GEENT01X', 'PSY233', 'A. TAYSON', TRUE),
+(423, 'Wednesday', '17:00:00', '19:00:00', 'NSGYZY02X', 'PSY231', 'O. CHUA', TRUE),
+(423, 'Thursday', '09:00:00', '11:00:00', 'GMMW01X', 'MAR242', 'D. ESTACIO', TRUE),
+(423, 'Thursday', '11:00:00', '13:00:00', 'PSYRC04X', 'PSY245', 'K. MERCADO', TRUE),
+(423, 'Thursday', '13:00:00', '15:00:00', 'BAIACC3X', 'ACT238', 'A. BAÑARES', TRUE),
+(423, 'Thursday', '15:00:00', '17:00:00', 'PSYRC05X', 'PSY242', 'A. ALBANIA', TRUE),
+(423, 'Friday', '15:00:00', '17:00:00', 'GTHRSKMT', 'TOU247', 'J. UNICO', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(424, 'Monday', '07:00:00', '09:00:00', 'PSYCH10X', 'PSY231', 'J. TAUY', TRUE),
+(424, 'Monday', '09:00:00', '11:00:00', 'PSYCH09X', 'PSY235', 'P. NICOLAS', TRUE),
+(424, 'Monday', '11:00:00', '13:00:00', 'PSYCH19X', 'PSY222', 'H. CABARLE', TRUE),
+(424, 'Monday', '13:00:00', '15:00:00', 'BBGOGOVX', 'MAR223', 'I. CREENCIA', TRUE),
+(424, 'Monday', '15:00:00', '17:00:00', 'PSYCH10X', 'PSY232', 'J. TAUY', TRUE),
+(424, 'Tuesday', '15:00:00', '17:00:00', 'PSYCH10X', 'PSY234', 'K. RACELA', TRUE),
+(424, 'Thursday', '07:00:00', '09:00:00', 'PSYCH10X', 'PSY231', 'J. TAUY', TRUE),
+(424, 'Thursday', '09:00:00', '11:00:00', 'PSYCH09X', 'PSY235', 'P. NICOLAS', TRUE),
+(424, 'Thursday', '11:00:00', '13:00:00', 'PSYCH19X', 'PSY222', 'H. CABARLE', TRUE),
+(424, 'Thursday', '13:00:00', '15:00:00', 'BBGOGOVX', 'MAR223', 'I. CREENCIA', TRUE),
+(424, 'Thursday', '15:00:00', '17:00:00', 'PSYCH10X', 'PSY232', 'J. TAUY', TRUE),
+(424, 'Friday', '07:00:00', '11:00:00', 'NSGZY02X', 'PSY232', 'F. ANDAL', TRUE),
+(424, 'Friday', '15:00:00', '17:00:00', 'PSYCH10X', 'PSY234', 'K. RACELA', TRUE),
+(424, 'Saturday', '08:00:00', '12:00:00', 'PSYCH08X', 'PSY236P', 'K. MERCADO', TRUE),
+(424, 'Saturday', '13:00:00', '19:00:00', 'PSYCH8XL', 'PSY236P', 'K. MERCADO', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(425, 'Monday', '07:00:00', '09:00:00', 'GEENT01X', 'HMA242', 'R. DIMAANO', TRUE),
+(425, 'Monday', '09:00:00', '11:00:00', 'GEPCM01X', 'CPE242', 'J. VIDALLON', TRUE),
+(425, 'Monday', '13:00:00', '15:00:00', 'BASTBUSX', 'ACT221', 'J. MILLORA', TRUE),
+(425, 'Monday', '15:00:00', '19:00:00', 'ENPHYS30', 'CPE242', 'D. ROMEROSA', TRUE),
+(425, 'Tuesday', '07:00:00', '09:40:00', 'GTHMICEL', 'HMA221', 'G. GARCIA', TRUE),
+(425, 'Tuesday', '13:00:00', '15:00:00', 'CPDSPG30', 'CPE221', 'H. SANGALANG', TRUE),
+(425, 'Tuesday', '15:00:00', '17:00:00', 'ENENDA', 'CPE231', 'J. OBUCE', TRUE),
+(425, 'Wednesday', '07:00:00', '11:00:00', 'GTHFORL1', 'HMA233', 'Z. ZARAGOZA', TRUE),
+(425, 'Thursday', '11:00:00', '13:00:00', 'ENICAL30', 'CPE242', 'J. OBICE', TRUE),
+(425, 'Thursday', '13:00:00', '15:00:00', 'BASTBUSX', 'ACT221', 'J. MILLORA', TRUE),
+(425, 'Thursday', '11:00:00', '13:00:00', 'GEACM01X', 'CPE232', 'E. LAYUG', TRUE),
+(425, 'Friday', '07:00:00', '11:00:00', 'GHELEC2X', 'HMA232', 'R. SUICO', TRUE),
+(425, 'Friday', '13:00:00', '15:00:00', 'BASTBUSX', 'ACT221', 'J. MILLORA', TRUE),
+(425, 'Friday', '15:00:00', '17:00:00', 'ENENDA30', 'CPE231', 'J. OBICE', TRUE),
+(425, 'Saturday', '07:00:00', '12:00:00', 'CPELX130', 'CPE221', 'L. RAMOS', TRUE),
+(425, 'Saturday', '07:00:00', '12:00:00', 'ECDCOM30', 'CPE221', 'J. ARANDA', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(426, 'Monday', '07:00:00', '09:00:00', 'BFINEL4X', 'FIN221', 'I. CREENCIA', TRUE),
+(426, 'Monday', '09:00:00', '11:00:00', 'BFINEL4X', 'FIN222', 'I. CREENCIA', TRUE),
+(426, 'Monday', '11:00:00', '13:00:00', 'BMAREL2X', 'MAR241', 'L. SOLIS', TRUE),
+(426, 'Monday', '13:00:00', '15:00:00', 'BMRETMAX', 'MAR232', 'M. BALBOA', TRUE),
+(426, 'Monday', '15:00:00', '17:00:00', 'BMRETMAX', 'MAR231', 'M. BALBOA', TRUE),
+(426, 'Tuesday', '07:00:00', '09:00:00', 'BBMASCIX', 'FIN242', 'M. CANDELAZA', TRUE),
+(426, 'Tuesday', '09:00:00', '11:00:00', 'BMAREL4X', 'MAR221', 'J. ARCAYOS', TRUE),
+(426, 'Tuesday', '11:00:00', '13:00:00', 'BBGOGOVX', 'MAR221', 'R. DIMAANO', TRUE),
+(426, 'Tuesday', '13:00:00', '15:00:00', 'BMFEASBX', 'MAR222', 'M. BALBOA', TRUE),
+(426, 'Tuesday', '15:00:00', '17:00:00', 'BBOPERMX', 'FIN231', 'R. DIMAANO', TRUE),
+(426, 'Tuesday', '17:00:00', '19:00:00', 'BBOPERMX', 'FIN232', 'R. DIMAANO', TRUE),
+(426, 'Thursday', '07:00:00', '09:00:00', 'BFINEL4X', 'FIN221', 'I. CREENCIA', TRUE),
+(426, 'Thursday', '09:00:00', '11:00:00', 'BFINEL4X', 'FIN222', 'I. CREENCIA', TRUE),
+(426, 'Thursday', '11:00:00', '13:00:00', 'BMAREL2X', 'MAR241', 'L. SOLIS', TRUE),
+(426, 'Thursday', '13:00:00', '15:00:00', 'BMRETMAX', 'MAR232', 'M. BALBOA', TRUE),
+(426, 'Thursday', '15:00:00', '17:00:00', 'BMRETMAX', 'MAR231', 'M. BALBOA', TRUE),
+(426, 'Friday', '07:00:00', '09:00:00', 'BBMASCIX', 'FIN242', 'M. CANDALEZA', TRUE),
+(426, 'Friday', '09:00:00', '11:00:00', 'BMAREL4X', 'MAR221', 'I. CREENCIA', TRUE),
+(426, 'Friday', '11:00:00', '13:00:00', 'BMAAREL2X', 'MAR241', 'L. SOLIS', TRUE),
+(426, 'Friday', '13:00:00', '15:00:00', 'BMRETMAX', 'MAR232', 'M. BALBOA', TRUE),
+(426, 'Friday', '15:00:00', '17:00:00', 'BMRETMAX', 'MAR231', 'R. DIMAANO', TRUE),
+(426, 'Friday', '17:00:00', '19:00:00', 'BBOPERMX', 'FIN232', 'R. DIMAANO', TRUE),
+(426, 'Saturday', '08:00:00', '12:00:00', 'BBINTA1X', 'MAR241', 'L. OLIPAS', TRUE),
+(426, 'Saturday', '13:00:00', '17:00:00', 'BBINTA1X', 'MAR242', 'L. OLIPAS', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(427, 'Monday', '09:00:00', '11:00:00', 'GEMMW01X', 'MGA241/ACT243', 'L. BARTICAN', TRUE),
+(427, 'Monday', '12:00:00', '16:00:00 ', 'BAIACC1X', 'MGA241/ACT243', 'M. SORIANO', TRUE),
+(427, 'Monday', '04:00:00 ', '18:00:00 ', 'BAFINMAX', 'MGA231/ACT232', 'D. MALABANAN', TRUE),
+(427, 'Monday', '18:00:00 ', '20:00:00 ', 'BAFINMAX', 'ACT237', 'D. MALABANAN', TRUE),
+(427, 'Tuesday', '07:00:00 ', '11:00:00 ', 'BAREBUSX', 'ACT231', 'J. ABUEL', TRUE),
+(427, 'Tuesday', '11:00:00 ', '13:00:00 ', 'BASTMGTX', 'MGA221', 'C. GAMO', TRUE),
+(427, 'Tuesday', '16:00:00 ', '18:00:00 ', 'BAFINMAX', 'MGA231/ACT232', 'D. MALABANAN', TRUE),
+(427, 'Thursday', '09:00:00 ', '11:00:00 ', 'GEMMW01X', 'MGA241/ACT243', 'L. BARTICAN', TRUE),
+(427, 'Thursday', '12:00:00 ', '16:00:00 ', 'BAIACC1X', 'MGA241/ACT243', 'M. SORIANO', TRUE),
+(427, 'Thursday', '16:00:00 ', '18:00:00 ', 'BAFINMAX', 'MGA231/ACT232', 'D. MALABANAN', TRUE),
+(427, 'Thursday', '18:00:00', '20:00:00', 'BAFINMAX', 'ACT237', 'D. MALABANAN', TRUE),
+(427, 'Friday', '07:00:00', '11:00:00', 'BAREBUSX', 'ACT231', 'J. ABUEL', TRUE),
+(427, 'Friday', '11:00:00', '13:00:00', 'BASTMGTX', 'MGA221', 'C. GAMO', TRUE),
+(427, 'Friday', '13:00:00', '15:00:00', 'BAPRMGTX', 'MGA221', 'C. GAMO', TRUE),
+(427, 'Friday', '15:00:00', '17:00:00', 'BASTMGTX', 'ACT221', 'C. GAMO', TRUE),
+(427, 'Friday', '17:00:00', '19:00:00', 'BAPAUD2X', 'ACT221', 'G. MAPA', TRUE),
+(427, 'Saturday', '13:00:00', '17:00:00', 'BABUSTAX', 'ACT237', 'K. CABILI', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(428, 'Monday', '07:00:00', '11:00:00', 'GTHFORL2', 'HMA222', 'Y. BAI', TRUE),
+(428, 'Monday', '11:00:00', '13:00:00', 'GTHMULDV', 'HMA242', 'J. SARIMOS', TRUE),
+(428, 'Monday', '13:00:00', '15:00:00', 'GTHSKMT', 'HMA242', 'M. CONWI', TRUE),
+(428, 'Monday', '15:00:00', '17:00:00', 'GTHSKMT', 'HMA243', 'J. SARIMOS', TRUE),
+(428, 'Monday', '07:00:00', '11:00:00', 'GTHFORL2', 'HMA223', 'Y. BAI', TRUE),
+(428, 'Tuesday', '11:00:00', '13:00:00', 'GTHMRKET', 'TOU233', 'B. TOLEDO', TRUE),
+(428, 'Tuesday', '13:00:00', '17:00:00', 'GTHSKMT', 'HMA245', 'R. DELOS REYES', TRUE),
+(428, 'Wednesday', '07:00:00', '11:00:00', 'GHELEC2X', 'HMA234', 'J. SARIMOS', TRUE),
+(428, 'Wednesday', '15:00:00', '19:00:00', 'GTHPADEV', 'TOU222', '', TRUE),
+(428, 'Thursday', '07:00:00', '11:00:00', 'GTHFORL2', 'HMA221', 'Y. BAI', TRUE),
+(428, 'Thursday', '11:00:00', '15:00:00', 'GTHMRKET', 'HMA223', 'J. GLORIA', TRUE),
+(428, 'Thursday', '15:00:00', '17:00:00', 'GTHMRKET', 'HMA243', 'J. SARIMOS', TRUE),
+(428, 'Friday', '07:00:00', '09:00:00', 'GEENT01X', 'HMA245', 'R. DIMAANO', TRUE),
+(428, 'Friday', '09:00:00', '11:00:00', 'GTHRSKMT', 'HMA245', 'R. DELOS REYES', TRUE),
+(428, 'Friday', '11:00:00', '13:00:00', 'GTHMRKET', 'TOU233', 'B. TOLEDO', TRUE),
+(428, 'Friday', '07:00:00', '11:00:00', 'GTHFORL2', 'HMA222', 'Y.BAI', TRUE),
+(428, 'Saturday', '07:00:00', '11:00:00', 'GTHRSKMT', 'HMA247', 'R. DELOS REYES', TRUE),
+(428, 'Friday', '13:00:00', '17:00:00', 'GTHMRKET', 'HMA221', 'K. MANALO', TRUE),
+(428, 'Saturday', '07:00:00', '11:00:00', 'GTHRSKMT', 'HMA247', 'R. DELOS REYES', TRUE),
+(428, 'Saturday', '13:00:00', '17:00:00', 'GTHMRKET', 'HMA221', 'K. MANALO', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(429, 'Monday', '07:00:00', '09:00:00', 'GEMMW01X', 'MAR244', 'L. BARTICAN', TRUE),
+(429, 'Monday', '09:00:00', '11:00:00', 'BMRETMAX', 'MAR233', 'M. BALBOA', TRUE),
+(429, 'Monday', '13:00:00', '15:00:00', 'BMAREL2X', 'MAR244', 'J. PACAS', TRUE),
+(429, 'Monday', '15:00:00', '19:00:00', 'BBHRMGTX', 'MAR242', 'S. JOCSON', TRUE),
+(429, 'Tuesday', '09:00:00', '11:00:00', 'BASTRAMX', 'TOU231', 'J. MARASIGAN', TRUE),
+(429, 'Tuesday', '11:00:00', '13:00:00', 'GEENT01X', 'TOU231', 'M. BALBOA', TRUE),
+(429, 'Tuesday', '13:00:00', '17:00:00', 'BBHRMGTX', 'HRM241', 'J. MORADOZ', TRUE),
+(429, 'Thursday', '07:00:00', '09:00:00', 'GEMMW01X', 'MAR244', 'L. BARTICAN', TRUE),
+(429, 'Thursday', '09:00:00', '11:00:00', 'BMRETMAX', 'MAR233', 'M. BALBOA', TRUE),
+(429, 'Thursday', '13:00:00', '17:00:00', 'BMAREL2X', 'MAR244', 'J. PACAS', TRUE),
+(429, 'Thursday', '05:00:00', '19:00:00', 'BBHRMGTX', 'MAR241', 'S. JOCSON', TRUE),
+(429, 'Friday', '09:00:00', '11:00:00', 'BASTRAMX', 'TOU231', 'J. 	MARASIGAN', TRUE),
+(429, 'Friday', '11:00:00', '13:00:00', 'BAINCTAX', 'ACT238', 'I. DEVESA', TRUE),
+(429, 'Friday', '13:00:00', '17:00:00', 'BFMONTPX', 'FIN241', 'J. MARASIGAN', TRUE),
+(429, 'Saturday', '08:00:00', '12:00:00', 'BABUSTAX', 'ACT231', 'K. CABILI', TRUE),
+(429, 'Saturday', '13:00:00', '17:00:00', 'GTHMRKET', 'TOU232', 'R. DELOS REYES', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(501, 'Monday', '07:00:00', '12:20:00', 'ARC223', 'ACADDA2L', 'J. AMPO-PERALTA', TRUE),
+(501, 'Monday', '13:00:00', '17:00:00', 'INF241', 'CCOBJPGL', 'M. GALO', TRUE),
+(501, 'Monday', '17:00:00', '21:00:00', 'INF223', 'CTADWEBL', 'B. BAUTISTA', TRUE),
+(501, 'Tuesday', '07:00:00', '12:20:00', 'ARC221', 'ACADDA2L', 'V. RAYMUNDO', TRUE),
+(501, 'Tuesday', '13:00:00', '17:00:00', 'INF247', 'CCOBJPGL', 'J. SACDALAN', TRUE),
+(501, 'Tuesday', '17:00:00', '21:00:00', 'INF224', 'CTADWEBL', 'R. VIADO', TRUE),
+(501, 'Wednesday', '07:00:00', '12:20:00', 'ARC222', 'ACADDA2L', 'V. RAYMUNDO', TRUE),
+(501, 'Thursday', '13:00:00', '17:00:00', 'INF243', 'CCOBJPGL', 'J. SACDALAN', TRUE),
+(501, 'Thursday', '17:00:00', '21:00:00', 'INF223', 'CTAINASL', 'J. ABAO', TRUE),
+(501, 'Friday', '13:00:00', '17:00:00', 'INF231', 'CTFDMBSL', 'S. LUMBOG', TRUE),
+(501, 'Friday', '17:00:00', '21:00:00', 'INF224', 'CTAINSL', 'C. TORRES', TRUE),
+(501, 'Saturday', '07:00:00', '12:20:00', 'ARC223P', 'ACADDA1L', 'V. RAYMUNDO', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(502, 'Monday', '13:00:00', '17:00:00', 'CCOBJPGL', 'INF244', 'P. VILLANUEVA', TRUE),
+(502, 'Monday', '17:00:00', '21:00:00', 'CTADWEBL', 'INF222', 'R. VIADO', TRUE),
+(502, 'Tuesday', '07:00:00', '11:00:00', 'CCOBJPGL', 'INF246', 'S. LUMBOG', TRUE),
+(502, 'Tuesday', '13:00:00', '17:00:00', 'CTFDMBSL', 'INF232', 'F. ATIENZA', TRUE),
+(502, 'Wednesday', '07:00:00', '11:00:00', 'CTADWEBL', 'INF221', 'R. VIADO', TRUE),
+(502, 'Thursday', '07:00:00', '11:00:00', 'CCOBJPGL', 'INF242', 'M. GALO', TRUE),
+(502, 'Thursday', '13:00:00', '17:00:00', 'CCOBJPGL', 'INF245', 'J. SISON', TRUE),
+(502, 'Thursday', '17:00:00', '21:00:00', 'CTAINASL', 'INF222', 'C. TORRES', TRUE),
+(502, 'Friday', '07:00:00', '11:00:00', 'CTFDMBSL', 'INF233', 'F. ATIENZA', TRUE),
+(502, 'Friday', '13:00:00', '17:00:00', 'CTADWEBL', 'INF234', 'M. GALO', TRUE),
+(502, 'Saturday', '07:00:00', '11:00:00', 'CTAINASL', 'INF221', 'J. BUHAIN', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(503, 'Monday', '07:00:00', '09:20:00', 'SECA-INF241', 'PATHFit 3', 'P.Gabagat', TRUE),
+(503, 'Monday', '10:00:00', '12:20:00', 'SECA-INF242', 'PATHFit 3', 'P.Gabagat', TRUE),
+(503, 'Monday', '12:40:00', '15:20:00', 'SECA-INF243', 'PATHFit 3', 'P.Gabagat', TRUE),
+(503, 'Tuesday', '07:00:00', '09:20:00', 'SECA-INF247', 'PATHFit 3', 'J.Jaro', TRUE),
+(503, 'Tuesday', '10:00:00', '12:20:00', 'SECA-COM241', 'PATHFit 3', 'J.Jaro', TRUE),
+(503, 'Tuesday', '12:40:00', '16:00:00', 'BPE231', 'INTED01X', 'B.Bautista', TRUE),
+(503, 'Thursday', '07:00:00', '09:20:00', 'SECA-INF244', 'PATHFit 3', 'P.Gabagat', TRUE),
+(503, 'Thursday', '10:00:00', '12:20:00', 'SECA-INF245', 'PATHFit 3', 'P.Gabagat', TRUE),
+(503, 'Thursday', '12:40:00', '15:20:00', 'SECA-INF246', 'PATHFit 3', 'P.Gabagat', TRUE),
+(503, 'Friday', '10:00:00', '12:20:00', 'SECA-COM242', 'PATHFit 3', 'J.Jaro', TRUE),
+(503, 'Friday', '12:40:00', '16:00:00', 'BPE231', 'PHTRA01X', 'P.GABAGAT', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(504, 'Monday', '07:00:00', '09:40:00', 'GHAPBUST', 'HMA231', 'J. CASTOR', TRUE),
+(504, 'Monday', '09:40:00', '13:40:00', 'GHAPBUST', 'HMA231', 'J. CASTOR', TRUE),
+(504, 'Monday', '15:00:00', '17:00:00', 'ABCOM30L', 'ABC221', 'C. RUIZ', TRUE),
+(504, 'Monday', '17:00:00', '19:00:00', 'ABCOM29L', 'ABC221', 'B. ESTRA', TRUE),
+(504, 'Tuesday', '09:00:00', '11:00:00', 'BHRMITTL', 'HRM231', NULL, TRUE),
+(504, 'Tuesday', '11:00:00', '13:40:00', 'GHAPBUST', 'HMA232', 'J. CASTOR', TRUE),
+(504, 'Tuesday', '13:40:00', '17:40:00', 'GHAPBUST', 'HMA232', 'J. CASTOR', TRUE),
+(504, 'Wednesday', '08:00:00', '12:00:00', 'ENCFAP2L', 'CIV245', 'J. PAYAD', TRUE),
+(504, 'Wednesday', '13:00:00', '17:00:00', 'ENCFAP2L', 'CIV245', 'J. PAYAD', TRUE),
+(504, 'Thursday', '07:00:00', '09:40:00', 'GHAPBUST', 'HMA233', 'J. CASTOR', TRUE),
+(504, 'Thursday', '09:40:00', '13:40:00', 'GHAPBUST', 'HMA233', 'J. CASTOR', TRUE),
+(504, 'Thursday', '15:00:00', '17:00:00', 'ABCOM30L', 'ABC221', 'C. RUIZ', TRUE),
+(504, 'Thursday', '17:00:00', '19:00:00', 'ABCOM29L', 'ABC221', 'B. ESTRA', TRUE),
+(504, 'Friday', '09:00:00', '11:00:00', 'BHRMITTL', 'HRM231', NULL, TRUE),
+(504, 'Friday', '15:00:00', '17:00:00', 'ABCOM30L', 'ABC221', 'C. RUIZ', TRUE),
+(504, 'Friday', '17:00:00', '19:00:00', 'ABCOM29L', 'ABC221', 'B. ESTRA', TRUE),
+(504, 'Saturday', '07:00:00', '09:40:00', 'GHAPBUST', 'HMA234', 'G. GARCIA', TRUE),
+(504, 'Saturday', '09:40:00', '13:40:00', 'GHAPBUST', 'HMA234', 'G. GARCIA', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(505, 'Monday', '13:00:00', '17:00:00', 'CTFDMBSL', 'COM231', 'J. BRAVO', TRUE),
+(505, 'Monday', '17:00:00', '20:00:00', 'CTFDMBSL', 'COM232', 'J. BRAVO', TRUE),
+(505, 'Tuesday', '07:00:00', '11:00:00', 'CTADVDBL', 'INF236', 'D. CATAHAN', TRUE),
+(505, 'Tuesday', '17:00:00', '20:00:00', 'CTFDMBSL', 'COM234', 'F. ATIENZA', TRUE),
+(505, 'Wednesday', '12:00:00', '16:00:00', 'CCDEPLRL', 'COM221', 'L. TAVU', TRUE),
+(505, 'Wednesday', '16:00:00', '20:00:00', 'CCINTHCI', 'COM221', 'L. TAVU', TRUE),
+(505, 'Thursday', '07:00:00', '11:00:00', 'CTWDEVL', 'INF232', 'E. ALIÑO', TRUE),
+(505, 'Thursday', '17:00:00', '21:00:00', 'CTAPDEVL', 'COM221', NULL, TRUE),
+(505, 'Friday', '07:00:00', '11:00:00', 'CCOBJPGL', 'COM241', NULL, TRUE),
+(505, 'Friday', '13:00:00', '17:00:00', 'CTWDEVL', 'INF232', 'J. SISON', TRUE),
+(505, 'Saturday', '08:00:00', '12:00:00', 'ENCFAP2L', 'CIV242', 'D. PON AN', TRUE),
+(505, 'Saturday', '13:00:00', '17:00:00', 'ENCFAP2L', 'CIV242', 'D. PON AN', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(506, 'Monday', '07:00:00', '12:00:00', 'ADESGN45', 'ARC231', 'J. GUTIERREZ', TRUE),
+(506, 'Monday', '13:00:00', '17:00:00', 'ADESGN45', 'ARC231', 'J. GUTIERREZ', TRUE),
+(506, 'Tuesday', '07:00:00', '12:00:00', 'ADESGN3S', 'ARC233P', 'J. SIOCHI', TRUE),
+(506, 'Tuesday', '13:00:00', '17:00:00', 'ADESGN45', 'ARC233P', 'J. SIOCHI', TRUE),
+(506, 'Wednesday', '07:00:00', '13:40:00', 'ABUTLI3S', 'ARC221', 'L. VISTA', TRUE),
+(506, 'Tuesday', '13:40:00', '20:20:00', 'ABUTLI3S', 'ARC225', 'C. AGRIPA', TRUE),
+(506, 'Thursday', '07:00:00', '13:40:00', 'ABUTLI3S', 'ARC223', 'L. VISTA', TRUE),
+(506, 'Thursday', '13:40:00', '20:20:00', 'ABTECN3S', 'ARC223P', NULL, TRUE),
+(506, 'Friday', '07:00:00', '13:40:00', 'ABUTLI3S', 'ARC222', 'M. ILANO', TRUE),
+(506, 'Saturday', '07:00:00', '13:40:00', 'ABTECN2S', 'ARC233P', 'D. ROMUALDEZ', TRUE),
+(506, 'Saturday', '13:40:00', '20:20:00', 'ASURVEY', 'ARC232', 'K. AUSTRIA', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(507, 'Monday', '07:00:00', '11:00:00', 'CPDSPG1L', 'CPE222', '', TRUE),
+(507, 'Tuesday', '07:00:00', '11:00:00', 'CPARCH1L', 'CPE222', 'V. PADER', TRUE),
+(507, 'Tuesday', '11:00:00', '15:00:00', 'CPDSAA2L', 'CPE231', 'P. VILLANUEVA', TRUE),
+(507, 'Tuesday', '15:00:00', '19:00:00', 'CPDSAA2L', 'CPE231', 'P. VILLANUEVA', TRUE),
+(507, 'Wednesday', '07:00:00', '11:00:00', 'ENADA1L', 'CIV222', 'M. JAPLIT', TRUE),
+(507, 'Wednesday', '11:00:00', '15:00:00', 'ENENDA1L', 'CPE232', 'J. OBICE', TRUE),
+(507, 'Wednesday', '15:00:00', '19:00:00', 'ENENDA1L', 'CPE232', 'J. OBICE', TRUE),
+(507, 'Thursday', '07:00:00', '11:00:00', 'CPDSPG1L', 'CPE221', '', TRUE),
+(507, 'Thursday', '17:00:00', '21:00:00', 'ENENDA1L', 'CPE231', 'J. DELA CRUZ', TRUE),
+(507, 'Friday', '07:00:00', '11:00:00', 'CPARCH1L', 'CPE221', 'V. PADER', TRUE),
+(507, 'Friday', '11:00:00', '15:00:00', 'CPDSAA2L', 'CPE231', 'P. VILLANUEVA', TRUE),
+(507, 'Friday', '15:00:00', '19:00:00', 'CPDSAA2L', 'CPE231', 'P. VILLANUEVA', TRUE),
+(507, 'Saturday', '08:00:00', '12:00:00', 'ENCFAP2L', 'CIV241', 'L. MILLO', TRUE),
+(507, 'Saturday', '13:00:00', '17:00:00', 'ENCFAP2L', 'CIV241', 'L. MILLO', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(508, 'Wednesday', '13:00:00', '17:00:00', 'ENEDA1L', 'CIV221', 'M. JAPLIT', TRUE),
+(508, 'Saturday', '08:00:00', '12:00:00', 'ENCFAP2L', 'CIV234', '', TRUE),
+(508, 'Saturday', '13:00:00', '17:00:00', 'ENCFAP2L', 'CIV234', '', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(509, 'Monday', '08:00:00', '10:40:00', 'CPTHS120', 'CPE221', 'J. OBICE', TRUE),
+(509, 'Monday', '11:00:00', '15:00:00', 'CPLGCT30', 'CPE232', NULL, TRUE),
+(509, 'Monday', '15:00:00', '19:00:00', 'CPLGCT30', 'CPE231', 'J. YACAP', TRUE),
+(509, 'Tuesday', '15:00:00', '17:00:00', 'CPDSPG30', 'CPE222', NULL, TRUE),
+(509, 'Wednesday', '11:00:00', '15:00:00', 'CPEDDL1L', 'CPE231', 'J. YACAP', TRUE),
+(509, 'Wednesday', '15:00:00', '19:00:00', 'CPEDDL1L', 'CPE232', 'J. YACAP', TRUE),
+(509, 'Thursday', '11:00:00', '15:00:00', 'CPLGCT1L', 'CPE232', NULL, TRUE),
+(509, 'Thursday', '15:00:00', '19:00:00', 'CPLGCT1L', 'CPE231', 'J. YACAP', TRUE),
+(509, 'Friday', '09:00:00', '11:40:00', 'CPTHS120', 'CPE222', 'J. OBICE', TRUE),
+(509, 'Friday', '15:00:00', '17:00:00', 'CPDSPG30', 'CPE222', NULL, TRUE),
+(509, 'Saturday', '08:00:00', '12:00:00', 'ENCFAP2L', 'CIV244', NULL, TRUE),
+(509, 'Saturday', '13:00:00', '17:00:00', 'ENCFAP2L', 'CIV244', NULL, TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(512, 'Monday', '07:00:00', '09:00:00', 'CEHWRE30', 'CIV220P', 'J. BENCITO', TRUE),
+(512, 'Monday', '11:00:00', '13:00:00', 'CEHWRE30', 'CIV221P', 'J. BENCITO', TRUE),
+(512, 'Monday', '13:00:00', '15:00:00', 'ENITV31D', 'CIV242P', 'J. LANDICHO', TRUE),
+(512, 'Monday', '15:00:00', '17:00:00', 'ENITV31D', 'CIV243P', 'J. LANDICHO', TRUE),
+(512, 'Tuesday', '07:00:00', '09:00:00', 'ENDCAL30', 'CIV241P', 'R. CRUCILLO', TRUE),
+(512, 'Tuesday', '10:00:00', '12:40:00', 'CEGLGY20', 'CIV243', 'A. ALBOLADORA', TRUE),
+(512, 'Tuesday', '15:00:00', '17:00:00', 'ENDCAL30', 'CIV243P', 'R. CRUCILLO', TRUE),
+(512, 'Wednesday', '13:00:00', '15:00:00', 'ASTLTIMD', 'ARC233', 'J. BACLAGAN', TRUE),
+(512, 'Thursday', '07:00:00', '09:00:00', 'CEHWRE30', 'CIV220P', 'J. BENCITO', TRUE),
+(512, 'Thursday', '11:00:00', '13:00:00', 'CEHWRE30', 'CIV221P', 'J. BENCITO', TRUE),
+(512, 'Thursday', '13:00:00', '15:00:00', 'ENICAL30', 'CIV243', 'J. JAVIER', TRUE),
+(512, 'Thursday', '15:00:00', '17:00:00', 'ENITV31D', 'CIV243P', 'J. LANDICHO', TRUE),
+(512, 'Friday', '07:00:00', '09:40:00', 'CEGLCY20', 'CIV241', 'J. LANDICHO', TRUE),
+(512, 'Friday', '10:00:00', '12:40:00', 'CEGLGY20', 'CIV242', 'J. LANDICHO', TRUE),
+(512, 'Friday', '13:00:00', '15:00:00', 'ENITV31D', 'CIV244P', 'J. LANDICHO', TRUE),
+(512, 'Saturday', '16:00:00', '20:00:00', 'ASTATICR', 'ARC231', 'C. CHAN', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(514, 'Monday', '07:00:00', '09:00:00', 'General Chemistry 2', '11STEM2408', 'Ms.Reoyan', TRUE),
+(514, 'Monday', '09:15:00', '11:15:00', 'Disaster Readiness and Risk Reduction', '11STEM2406', 'Mr.Poblete', TRUE),
+(514, 'Tuesday', '07:00:00', '09:00:00', 'General Chemistry 2', '11STEM2406', 'Ms.Reoyan', TRUE),
+(514, 'Tuesday', '09:15:00', '11:15:00', 'General Chemistry 2', '11STEM2401', 'Ms.Reoyan', TRUE),
+(514, 'Thursday', '07:00:00', '09:00:00', 'General Chemistry 2', '11STEM2408', 'Ms.Reoyan', TRUE),
+(514, 'Thursday', '09:15:00', '11:15:00', 'Disaster Readiness and Risk Reduction', '11STEM2406', 'Mr.Poblete', TRUE),
+(514, 'Friday', '07:00:00', '09:00:00', 'General Chemistry 2', '11STEM2406', 'Ms.Reoyan', TRUE),
+(514, 'Friday', '09:15:00', '11:15:00', 'General Chemistry 2', '11STEM2401', 'Ms.Reoyan', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(516, 'Monday', '09:15:00', '11:15:00', 'General Chemistry 2', '11STEM2407', 'Mr.Novida', TRUE),
+(516, 'Monday', '12:00:00', '14:00:00', 'General Chemistry 2', '11STEM2405', 'Ms.Reoyan', TRUE),
+(516, 'Tuesday', '07:00:00', '09:00:00', 'General Chemistry 2', '11STEM2403', 'Mr.Novida', TRUE),
+(516, 'Tuesday', '12:00:00', '14:00:00', 'General Chemistry 2', '11STEM2404', 'Mr.Novida', TRUE),
+(516, 'Thursday', '09:15:00', '11:15:00', 'General Chemistry 2', '11STEM2407', 'Mr.Novida', TRUE),
+(516, 'Thursday', '12:00:00', '14:00:00', 'General Chemistry 2', '11STEM2405', 'Ms.Reoyan', TRUE),
+(516, 'Friday', '07:00:00', '09:00:00', 'General Chemistry 2', '11STEM2403', 'Mr.Novida', TRUE),
+(516, 'Friday', '12:00:00', '14:00:00', 'General Chemistry 2', '11STEM2404', 'Mr.Novida', TRUE),
+(516, 'Monday', '09:15:00', '11:15:00', 'General Chemistry 2', '11STEM2407', 'Mr. Novida', TRUE),
+(516, 'Monday', '13:00:00', '14:00:00', 'General Chemistry 2', '11STEM2405', 'Ms. Reoyan', TRUE),
+(516, 'Tuesday', '07:00:00', '09:00:00', 'General Chemistry 2', '11STEM2403', 'Mr. Novida', TRUE),
+(516, 'Tuesday', '13:00:00', '14:00:00', 'General Chemistry 2', '11STEM2404', 'Mr. Novida', TRUE),
+(516, 'Thursday', '09:15:00', '11:15:00', 'General Chemistry 2', '11STEM2407', 'Mr. Novida', TRUE),
+(516, 'Thursday', '13:00:00', '14:00:00', 'General Chemistry 2', '11STEM2405', 'Ms. Reoyan', TRUE),
+(516, 'Friday', '07:00:00', '09:00:00', 'General Chemistry 2', '11STEM2403', 'Mr. Novida', TRUE),
+(516, 'Friday', '13:00:00', '14:00:00', 'General Chemistry 2', '11STEM2404', 'Mr. Novida', TRUE),
+(517, 'Wednesday', '08:00:00', '12:00:00', 'ENPHYS1L', 'CIV241', 'D.BUENAVENTURA', TRUE),
+(517, 'Wednesday', '13:00:00', '17:00:00', 'ENPHYS1L', 'CIV242', 'D.BUENAVENTURA', TRUE),
+(517, 'Thursday', '11:00:00', '15:00:00', 'ENPHYS1L', 'CPE241', 'D.ROMEROSA', TRUE),
+(517, 'Thursday', '15:00:00', '19:00:00', 'ENPHYS1L', 'CPE242', 'D.ROMEROSA', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(519, 'Monday', '07:00:00', '09:00:00', 'General Biology 1', '11STEM2404', 'Mr.Pitel', TRUE),
+(519, 'Monday', '09:15:00', '11:15:00', 'General Biology 1', '11STEM2408', 'Mr.Pitel', TRUE),
+(519, 'Monday', '12:00:00', '14:00:00', 'General Chemistry 2', '11STEM2402', 'Mr.Novida', TRUE),
+(519, 'Monday', '14:15:00', '17:15:00', 'Disaster Readiness and Risk Reduction', '11STEM2408', 'Ms.Cuartero', TRUE),
+(519, 'Tuesday', '07:00:00', '09:00:00', 'General Biology 1', '11STEM2401', 'Mr.Pitel', TRUE),
+(519, 'Tuesday', '09:15:00', '11:15:00', 'General Biology 1', '11STEM2407', 'Mr.Pitel', TRUE),
+(519, 'Tuesday', '12:00:00', '14:00:00', 'Statistics and Probability', '11STEM2406', 'Mr.Adug', TRUE),
+(519, 'Thursday', '07:00:00', '09:00:00', 'General Biology 1', '11STEM2404', 'Mr.Pitel', TRUE),
+(519, 'Thursday', '09:15:00', '11:15:00', 'General Biology 1', '11STEM2408', 'Mr.Pitel', TRUE),
+(519, 'Thursday', '12:00:00', '14:00:00', 'General Chemistry 2', '11STEM2402', 'Mr.Novida', TRUE),
+(519, 'Thursday', '14:15:00', '17:15:00', 'Disaster Readiness and Risk Reduction', '11STEM2408', 'Ms.Cuartero', TRUE),
+(519, 'Friday', '07:00:00', '09:00:00', 'General Biology 1', '11STEM2401', 'Mr.Pitel', TRUE),
+(519, 'Friday', '09:15:00', '11:15:00', 'General Biology 1', '11STEM2407', 'Mr.Pitel', TRUE),
+(519, 'Friday', '12:00:00', '14:00:00', 'Statistics and Probability', '11STEM2406', 'Mr.Adug', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(521, 'Monday', '07:00:00', '20:20:00', 'ADESGN6S', 'ARC222', 'C COSTA', TRUE),
+(521, 'Tuesday', '07:00:00', '12:00:00', 'ADESGN3S', 'ARC234P', 'M.ILANO', TRUE),
+(521, 'Tuesday', '13:00:00', '17:20:00', 'ADESGN3S', 'ARC234P', 'M.ILANO', TRUE),
+(521, 'Friday', '07:00:00', '12:00:00', 'ADESGN4S', 'ARC232A', 'P.AGUSTIN', TRUE),
+(521, 'Friday', '13:00:00', '17:20:00', 'ADESGN4S', 'ARC232A', 'P.AGUSTIN', TRUE),
+(521, 'Monday', '07:00:00', '20:20:00', 'ADESGN5S', 'ARC221', 'Q. MANAOG', TRUE),
+(521, 'Tuesday', '07:00:00', '11:40:00', 'ADESGN4S', 'ARC232', 'P. AGUSTIN', TRUE),
+(521, 'Tuesday', '13:00:00', '17:20:00', 'ADESGN4S', 'ARC232', 'P. AGUSTIN', TRUE),
+(521, 'Thursday', '07:00:00', '20:20:00', 'ADESGN6S', 'ARC222', 'C. COSTA', TRUE),
+(521, 'Saturday', '07:00:00', '13:40:00', 'ASURVEYL', 'ARC231', 'J. COLESIO', TRUE),
+(521, 'Saturday', '13:40:00', '19:00:00', 'AINTERIS', 'ARC234P', 'C. AGRIPA', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(522, 'Monday', '07:00:00', '09:00:00', 'SCSTPRB', '11HUMSS2401', 'P. ASERIT', TRUE),
+(522, 'Monday', '09:00:00', '11:00:00', 'SAPRES1', '11HUMSS2401', 'A. LONGAZA', TRUE),
+(522, 'Monday', '11:00:00', '13:00:00', 'SSWIMER', '12HUMSS2301', 'D. LAUREL', TRUE),
+(522, 'Monday', '15:30:00', '17:30:00', 'SAIMMER', '12HUMSS2301', 'A. ROMULO', TRUE),
+(522, 'Tuesday', '07:00:00', '09:00:00', 'SCCPART', '12HUMSS2301', 'K. CORTEZ', TRUE),
+(522, 'Tuesday', '09:00:00', '11:00:00', 'SSIWRBS', '12HUMSS2301', 'L. PERUCHO', TRUE),
+(522, 'Tuesday', '11:00:00', '13:00:00', 'SAEAPPS', '11HUMSS2401', 'K. RAYOS', TRUE),
+(522, 'Thursday', '07:00:00', '09:00:00', 'SCSTPRB', '11HUMSS2401', 'P. ASERIT', TRUE),
+(522, 'Thursday', '09:00:00', '11:00:00', 'SAPRES1', '11HUMSS2401', 'A. LANGOZA', TRUE),
+(522, 'Thursday', '11:00:00', '13:00:00', 'SSWIMER', '12HUMSS2301', 'D. LAUREL', TRUE),
+(522, 'Thursday', '15:30:00', '17:30:00', 'SAIMMER', '12HUMSS2301', 'A. ROMULO', TRUE),
+(522, 'Friday', '07:00:00', '09:00:00', 'SCCOART', '12HUMSS2301', 'K. CORTEZ', TRUE),
+(522, 'Friday', '09:00:00', '11:00:00', 'SSIWRBS', '12HUMSS2301', 'L. PERUCHO', TRUE),
+(522, 'Friday', '11:00:00', '13:00:00', 'SAEAPPS', '11HUMSS2401', 'K. RAYOS', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(523, 'Monday', '09:00:00', '11:00:00', 'Inquiries, Investigations and Immersions', '12ABM2301', 'Ms. Cantiga', TRUE),
+(523, 'Monday', '11:00:00', '13:00:00', 'Practical Research 1', '11ABM2401', 'Ms. Fortuno', TRUE),
+(523, 'Monday', '13:15:00', '15:15:00', 'English for Academic and Professional Purposes', '11ABM2401', 'Ms. Rayos', TRUE),
+(523, 'Tuesday', '07:00:00', '09:00:00', 'Statistics and Probability', '11ABM2401', 'Ms. Aserit', TRUE),
+(523, 'Tuesday', '09:00:00', '11:00:00', 'Fundamentals of Accountancy Business & Management 1', '11ABM2401', 'Ms. Blanco', TRUE),
+(523, 'Tuesday', '11:00:00', '13:00:00', 'Contemporary Philippines Arts from the Regions', '12ABM2301', 'Ms. Cortex', TRUE),
+(523, 'Tuesday', '13:00:00', '14:15:00', 'Filipino sa Piling Larangan', '12ABM2301', 'Ms. Diokno', TRUE),
+(523, 'Tuesday', '15:30:00', '17:30:00', 'Physical Science', '12ABM2301', 'Mr. Pobleta', TRUE),
+(523, 'Thursday', '09:00:00', '11:00:00', 'Inquiries, Investigations and Immersions', '12ABM2301', 'Ms. Cantiga', TRUE),
+(523, 'Thursday', '11:00:00', '13:00:00', 'Practical Research 1', '11ABM2401', 'Ms. Fortuno', TRUE),
+(523, 'Thursday', '13:15:00', '15:15:00', 'English for Academic and Professional Purposes', '11ABM2401', 'Ms. Rayos', TRUE),
+(523, 'Friday', '07:00:00', '09:00:00', 'Statistics and Probability', '11ABM2401', 'Ms. Aserit', TRUE),
+(523, 'Friday', '09:00:00', '11:00:00', 'Fundamentals of Accountancy Business & Management 1', '11ABM2401', 'Ms. Blanco', TRUE),
+(523, 'Friday', '11:00:00', '13:00:00', 'Contemporary Philippines Arts from the Regions', '12ABM2301', 'Ms. Cortex', TRUE),
+(523, 'Friday', '13:00:00', '14:15:00', 'Filipino sa Piling Larangan', '12ABM2301', 'Ms. Diokno', TRUE),
+(523, 'Friday', '15:30:00', '17:30:00', 'Physical Science', '12ABM2301', 'Mr. Pobleta', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(525, 'Monday', '07:00:00', '13:40:00', 'ABUTLI2S', 'ARC223P', 'R.MOJICA', TRUE),
+(525, 'Tuesday', '07:00:00', '12:20:00', 'ADESGN1S', 'ARC244P', 'K.BESCASER', TRUE),
+(525, 'Tuesday', '13:00:00', '18:20:00', 'ADESGN1S', 'ARC244AP', 'K.BESCASER', TRUE),
+(525, 'Wednesday', '07:00:00', '12:20:00', 'ADESGN2S', 'ARC241', 'M.MEMORACION', TRUE),
+(525, 'Wednesday', '13:00:00', '18:20:00', 'ADWESGN2S', 'ARC241A', 'M.MEMORACION', TRUE),
+(525, 'Thursday', '07:00:00', '20:20:00', 'ADESGN6S', 'ARC221A', 'Q.MANAOG', TRUE),
+(525, 'Friday', '07:00:00', '12:00:00', 'ADESGN3S', 'ARC233AP', 'J.SIOCHI', TRUE),
+(525, 'Friday', '13:00:00', '17:20:00', 'ADESGN3S', 'ARC233AP', 'J.SIOCHI', TRUE),
+(525, 'Saturday', '07:00:00', '12:20:00', 'ADESGN2S', 'ARC243', 'K.HILARIO', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(526, 'Monday', '07:00:00', '09:00:00', 'Contemporary Philippines Arts from the Regions', '12ABM2302', 'Ms.Cortez', TRUE),
+(526, 'Monday', '09:00:00', '11:00:00', 'Understanding Culture, Society and Politics', '11ABM2401', 'Ms.Coral', TRUE),
+(526, 'Monday', '11:00:00', '13:00:00', 'English for Academic and Professional Purposes', '11ABM2402', 'Ms.Rayos', TRUE),
+(526, 'Monday', '13:15:00', '15:15:00', 'Understanding Culture, Society and Politics', '11ABM2402', 'Ms.Corral', TRUE),
+(526, 'Monday', '15:30:00', '17:30:00', 'Practical Research 1', '11ABM2402', 'Ms.Fortuno', TRUE),
+(526, 'Tuesday', '07:00:00', '09:00:00', 'Fundamentals of Accountancy Business & Management 1', '11ABM2402', 'Ms.Blanco', TRUE),
+(526, 'Tuesday', '09:00:00', '11:00:00', 'Statistics and Probability', '11ABM2402', 'Ms.Aserit', TRUE),
+(526, 'Tuesday', '11:00:00', '13:00:00', 'Inquires, Investigations and Immersions', '12ABM2302', 'Ms.Cantiga', TRUE),
+(526, 'Tuesday', '13:00:00', '14:15:00', 'Physical Science', '12ABM2302', 'Mr.Poblete', TRUE),
+(526, 'Tuesday', '15:30:00', '17:30:00', 'Filipino sa Piling Larangan', '12ABM2302', 'Mr.Diokno', TRUE),
+(526, 'Thursday', '07:00:00', '09:00:00', 'Contemporary Philippines Arts from the Regions', '12ABM2302', 'Ms.Cortez', TRUE),
+(526, 'Thursday', '09:00:00', '11:00:00', 'Understanding Culture, Society and Politics', '11ABM2401', 'Ms.Coral', TRUE),
+(526, 'Thursday', '11:00:00', '13:00:00', 'English for Academic and Professional Purposes', '11ABM2402', 'Ms.Rayos', TRUE),
+(526, 'Thursday', '13:15:00', '15:15:00', 'Understanding Culture, Society and Politics', '11ABM2402', 'Ms.Corral', TRUE),
+(526, 'Thursday', '15:30:00', '17:30:00', 'Practical Research 1', '11ABM2402', 'Ms.Fortuno', TRUE),
+(526, 'Friday', '07:00:00', '09:00:00', 'Fundamentals of Accountancy Business & Management 1', '11ABM2402', 'Ms.Blanco', TRUE),
+(526, 'Friday', '09:00:00', '11:00:00', 'Statistics and Probability', '11ABM2402', 'Ms.Aserit', TRUE),
+(526, 'Friday', '11:00:00', '13:00:00', 'Inquires, Investigations and Immersions', '12ABM2302', 'Ms.Cantiga', TRUE),
+(526, 'Friday', '13:00:00', '14:15:00', 'Physical Science', '12ABM2302', 'Mr.Poblete', TRUE),
+(526, 'Friday', '15:30:00', '17:30:00', 'Filipino sa Piling Larangan', '12ABM2302', 'Mr.Diokno', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(527, 'Monday', '07:00:00', '09:00:00', 'Filipino sa Piling Larangan', '12HUMSS2302', 'Ms. Corpuz', TRUE),
+(527, 'Monday', '09:00:00', '11:00:00', 'Work Immersions', '12HUMSS2302', 'Mr. Laurel', TRUE),
+(527, 'Monday', '11:00:00', '13:00:00', 'Statistics and Probability', '11HUMSS2402', 'Ms. Aserit', TRUE),
+(527, 'Monday', '13:15:00', '15:15:00', 'Creative Non-Fliction', '11HUMSS2402', 'Ms. Ocampo', TRUE),
+(527, 'Tuesday', '07:00:00', '09:00:00', 'English for Academic and Professional Purposes', '11HUMSS2402', 'Ms. Rayos', TRUE),
+(527, 'Tuesday', '09:00:00', '11:00:00', 'Practical Research 1', '11HUMSS2402', 'Ms. Longaza', TRUE),
+(527, 'Tuesday', '11:00:00', '13:00:00', 'Introduction to World Religion', '12HUMSS2302', 'Mr. Perucho', TRUE),
+(527, 'Tuesday', '13:15:00', '15:15:00', 'Contemporary Arts from the Philippines and the Region', '12HUMSS2302', 'Ms. Cortez', TRUE),
+(527, 'Tuesday', '15:30:00', '17:30:00', 'Inquires, Investigations and Immersions', '12HUMSS2302', 'Mr. Romulo', TRUE),
+(527, 'Thursday', '07:00:00', '09:00:00', 'Filipino sa Piling Larangan', '12HUMSS2302', 'Ms. Corpuz', TRUE),
+(527, 'Thursday', '09:00:00', '11:00:00', 'Work Immersions', '12HUMSS2302', 'Mr. Laurel', TRUE),
+(527, 'Thursday', '11:00:00', '13:00:00', 'Statistics and Probability', '11HUMSS2402', 'Ms. Aserit', TRUE),
+(527, 'Thursday', '13:15:00', '15:15:00', 'Creative Non-Fliction', '11HUMSS2402', 'Ms. Ocampo', TRUE),
+(527, 'Friday', '07:00:00', '09:00:00', 'English for Academic and Professional Purposes', '11HUMSS2402', 'Ms. Rayos', TRUE),
+(527, 'Friday', '09:00:00', '11:00:00', 'Practical Research 1', '11HUMSS2402', 'Ms. Longaza', TRUE),
+(527, 'Friday', '11:00:00', '13:00:00', 'Introduction to World Religion', '12HUMSS2302', 'Mr. Perucho', TRUE),
+(527, 'Friday', '13:15:00', '15:15:00', 'Contemporary Arts from the Philippines and the Region', '12HUMSS2302', 'Ms. Cortez', TRUE),
+(527, 'Friday', '15:30:00', '17:30:00', 'Inquires, Investigations and Immersions', '12HUMSS2302', 'Mr. Romulo', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(528, 'Monday', '07:00:00', '09:00:00', 'Capstone Project', '12STEM2306', 'Ms. Cantiga', TRUE),
+(528, 'Monday', '09:15:00', '11:15:00', 'Inquires, Investigations and Immersions', '12STEM2306', 'Ms. Ocampo', TRUE),
+(528, 'Monday', '12:00:00', '14:00:00', 'Entrepreneurship', '11STEM2406', 'Mr. Lopena', TRUE),
+(528, 'Monday', '14:15:00', '16:15:00', 'Statistics and Probability', '11STEM2409', 'Mr. Adug', TRUE),
+(528, 'Tuesday', '07:00:00', '09:00:00', 'Filipino sa Piling Larangan', '12STEM2306', 'Ms. Catangay', TRUE),
+(528, 'Tuesday', '09:15:00', '11:15:00', '21st Century from the Philippines and the World', '12STEM2306', 'Mr. Romulo', TRUE),
+(528, 'Tuesday', '12:00:00', '14:00:00', 'Introduction to the Philosophy of the Human Persons', '12STEM2306', 'Ms. Coral', TRUE),
+(528, 'Tuesday', '14:15:00', '16:15:00', 'Disaster Readiness and Risk Reduction', '11STEM2404', 'Ms. Cuartero', TRUE),
+(528, 'Thursday', '07:00:00', '09:00:00', 'Capstone Project', '12STEM2306', 'Ms. Cantiga', TRUE),
+(528, 'Thursday', '09:15:00', '11:15:00', 'Inquires, Investigations and Immersions', '12STEM2306', 'Ms. Ocampo', TRUE),
+(528, 'Thursday', '12:00:00', '14:00:00', 'Entrepreneurship', '11STEM2406', 'Mr. Lopena', TRUE),
+(528, 'Thursday', '14:15:00', '16:15:00', 'Statistics and Probability', '11STEM2409', 'Mr. Adug', TRUE),
+(528, 'Friday', '07:00:00', '09:00:00', 'Filipino sa Piling Larangan', '12STEM2306', 'Ms. Catangay', TRUE),
+(528, 'Friday', '09:15:00', '11:15:00', '21st Century from the Philippines and the World', '12STEM2306', 'Mr. Romulo', TRUE),
+(528, 'Friday', '12:00:00', '14:00:00', 'Introduction to the Philosophy of the Human Persons', '12STEM2306', 'Ms. Coral', TRUE),
+(528, 'Friday', '14:15:00', '16:15:00', 'Disaster Readiness and Risk Reduction', '11STEM2404', 'Ms. Cuartero', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(529, 'Monday', '11:00:00', '13:00:00', 'ABC23P', 'ABCOM34X', 'B. ESTRADA', TRUE),
+(529, 'Monday', '13:00:00', '15:00:00', 'ABC221', 'ABCOM31X', 'J. LIBUNAO', TRUE),
+(529, 'Monday', '15:00:00', '17:00:00', 'ABC231', 'ABCOM15L', 'B. ESTRADA', TRUE),
+(529, 'Tuesday', '09:00:00', '11:00:00', 'ABC241', 'GEMMW01X', 'J. BELTRAN', TRUE),
+(529, 'Tuesday', '13:00:00', '15:00:00', 'ABC241', 'COMM05BP', 'B. ESTREADA', TRUE),
+(529, 'Tuesday', '15:00:00', '17:00:00', 'ABC232', 'ABCOM15L', 'B. ESTRADA', TRUE),
+(529, 'Wednesday', '09:00:00', '11:00:00', 'ABC231', 'ABCOM13L', 'J. LIBUNAO', TRUE),
+(529, 'Wednesday', '14:00:00', '18:00:00', 'ABC232', 'ABCOM13L', 'J. LIBUNAO', TRUE),
+(529, 'Thursday', '11:00:00', '13:00:00', 'ABC23P', 'ABCOM34X', 'B. ESTRADA', TRUE),
+(529, 'Thursday', '13:00:00', '15:00:00', 'ABC221', 'ABCOM31X', 'J. LIBUNAO', TRUE),
+(529, 'Thursday', '15:00:00', '17:00:00', 'ABC231', 'ABCOM15L', 'B. ESTRADA', TRUE),
+(529, 'Friday', '09:00:00', '11:00:00', 'ABC241', 'GEMMW01X', 'J. BELTRAN', TRUE),
+(529, 'Friday', '13:00:00', '15:00:00', 'ABC241', 'COMM05BP', 'B. ESTRADA', TRUE),
+(529, 'Friday', '15:00:00', '17:00:00', 'ABC232', 'ABCOM15L', 'B. ESTRADA', TRUE);
+
+INSERT INTO ROOM_SCHEDULE(room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(530, 'Monday', '07:00:00', '09:00:00', 'BASTRCSX', 'ACT238', 'J. MILLORA', TRUE),
+(530, 'Monday', '09:00:00', '11:00:00', 'BASTRCSX', 'ACT239', 'J. MILLORA', TRUE),
+(530, 'Monday', '11:00:00', '13:00:00', 'BADVAC3X', 'ACT221', 'J. CRUZ', TRUE),
+(530, 'Monday', '13:00:00', '17:00:00', 'BAIACC2X', 'ACT235', 'J. DELOS REYES', TRUE),
+(530, 'Monday', '17:00:00', '19:00:00', 'BASTMGTX', 'ACT227', 'C. GAMO', TRUE),
+(530, 'Tuesday', '07:00:00', '09:00:00', 'BATHEOAX', 'ACT248', 'G. MAPA', TRUE),
+(530, 'Tuesday', '09:00:00', '11:00:00', 'GEMMW01X', 'ACT248', 'D. ESTACIO', TRUE),
+(530, 'Tuesday', '11:00:00', '13:00:00', 'BAFINMAX', 'ACT239', 'J. DELOS REYES', TRUE),
+(530, 'Tuesday', '13:00:00', '15:00:00', 'BAFACR1X', 'ACT248', 'I. DEVESA', TRUE),
+(530, 'Tuesday', '15:00:00', '17:00:00', 'BAMGECOX', 'ACT248', 'R. BARRERA', TRUE),
+(530, 'Thursday', '07:00:00', '09:00:00', 'BASTRCSX', 'ACT238', 'J. MILLORA', TRUE),
+(530, 'Thursday', '09:00:00', '11:00:00', 'BASTRCSX', 'ACT239', 'J. MILLORA', TRUE),
+(530, 'Thursday', '07:00:00', '09:00:00', 'BADVAC3X', 'ACT221', 'J. CRUZ', TRUE),
+(530, 'Thursday', '13:00:00', '17:00:00', 'BAIACC2X', 'ACT235', 'J. DELOS REYES', TRUE),
+(530, 'Thursday', '17:00:00', '19:00:00', 'BASTMGTX', 'ACT227', 'C. GAMO', TRUE),
+(530, 'Friday', '07:00:00', '09:00:00', 'BATHEOAX', 'ACT248', 'G. MAPA', TRUE),
+(530, 'Friday', '09:00:00', '11:00:00', 'GEMMW01X', 'ACT248', 'D. ESTACIO', TRUE),
+(530, 'Friday', '11:00:00', '13:00:00', 'BAFINMAX', 'ACT239', 'J. DELOS REYES', TRUE),
+(530, 'Friday', '13:00:00', '15:00:00', 'BAFACR1X', 'ACT248', 'I. DEVESA', TRUE),
+(530, 'Friday', '15:00:00', '17:00:00', 'BAMGECOX', 'ACT248', 'R. BARRERA', TRUE),
+(530, 'Saturday', '13:00:00', '17:00:00', 'BAMNSCIX', 'ACT239', 'P. ABUZO', TRUE);
+
+INSERT INTO ROOM_SCHEDULE (room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+    (531, 'Monday', '07:00:00', '09:00:00', 'BADVAC1X', 'MGA231/ACT232', 'G. MAPA', TRUE),
+    (531, 'Monday', '09:00:00', '11:00:00', 'BAMNSCIX', 'MGA231/ACT232', 'R. GAGALAC', TRUE),
+    (531, 'Monday', '11:00:00', '13:00:00', 'BAIACC3X', 'ACT236', 'A. BAÑARES', TRUE),
+    (531, 'Monday', '13:00:00', '15:00:00', 'BADVAC3X', 'MGA221', 'J. CRUZ', TRUE),
+    (531, 'Monday', '15:00:00', '17:00:00', 'BASTBUSX', 'MGA221', 'J. MILLORA', TRUE),
+    (531, 'Monday', '17:00:00', '19:00:00', 'BAMGECOX', 'MGA241/ACT243', 'R. BARRERA', TRUE),
+    (531, 'Tuesday', '07:00:00', '09:00:00', 'BAVALMOX', 'MGA221', 'E. CESISTA', TRUE),
+    (531, 'Tuesday', '09:00:00', '11:00:00', 'BAVALMOX', 'MGA222', 'E. CESISTA', TRUE),
+    (531, 'Tuesday', '11:00:00', '13:00:00', 'BABUSTAX', 'MGA231/ACT232', 'M. LICERALDE', TRUE),
+    (531, 'Tuesday', '14:00:00', '16:00:00', 'BAREBUSX', 'MGA231/ACT232', 'J. ABUEL', TRUE),
+    (531, 'Thursday', '07:00:00', '09:00:00', 'BADVAC1X', 'MGA231/ACT232', 'G. MAPA', TRUE),
+    (531, 'Thursday', '09:00:00', '11:00:00', 'BAMNSCIX', 'MGA231/ACT232', 'R. GAGALAC', TRUE),
+    (531, 'Thursday', '11:00:00', '13:00:00', 'BAIACC3X', 'ACT236', 'A. BAÑARES', TRUE),
+    (531, 'Thursday', '13:00:00', '15:00:00', 'BADVAC1X', 'MGA221', 'J. CRUZ', TRUE),
+    (531, 'Thursday', '15:00:00', '17:00:00', 'BASTBUSX', 'MGA221', 'J. MILLORA', TRUE),
+    (531, 'Thursday', '17:00:00', '19:00:00', 'BAMGECOX', 'MGA241/ACT243', 'R. BARRERA', TRUE),
+    (531, 'Friday', '07:00:00', '09:00:00', 'BADVAC1X', 'MGA221', 'E. CESISTA', TRUE),
+    (531, 'Friday', '09:00:00', '11:00:00', 'BAVALMOX', 'MGA222', 'E. CESISTA', TRUE),
+    (531, 'Friday', '11:00:00', '13:00:00', 'BABUSTAX', 'MGA231/ACT232', 'M. LICERALDE', TRUE),
+    (531, 'Friday', '14:00:00', '16:00:00', 'BAREBUSX', 'MGA231/ACT232', 'J. ABUEL', TRUE),
+    (531, 'Saturday', '08:00:00', '12:00:00', 'BAMNSCIX', 'ACT238', 'P. ABUZO', TRUE);
+
+INSERT INTO ROOM_SCHEDULE (room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(532, 'Monday', '11:00:00', '13:00:00', 'GEACM01X', 'CPE231', 'D.CONDEZ', TRUE);
+
+INSERT INTO ROOM_SCHEDULE (room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(533, 'Monday', '07:00:00', '09:00:00', 'English for Academic and Professional Purposes', '11ABM2403', 'Ms.Rayos', TRUE),
+(533, 'Monday', '09:00:00', '11:00:00', 'Practical Research 1', '11ABM2403', 'Ms.Fortuno', TRUE),
+(533, 'Monday', '12:00:00', '14:00:00', 'Statistics and Probability', '11STEM2403', 'Mr.Adug', TRUE),
+(533, 'Tuesday', '07:00:00', '09:00:00', 'Fundamentals of Accountancy Business & Management 1', '11ABM2403', 'Mr.Lopena', TRUE),
+(533, 'Tuesday', '09:00:00', '11:00:00', 'Understanding Culture, Society & Politics', '11ABM2403', 'Ms.Corral', TRUE),
+(533, 'Tuesday', '12:00:00', '14:00:00', 'Statistics and Probability', '11ABM2403', 'Ms.Aserit', TRUE),
+(533, 'Thursday', '07:00:00', '09:00:00', 'English for Academic and Professional Purposes', '11ABM2403', 'Ms.Rayos', TRUE),
+(533, 'Thursday', '09:00:00', '11:00:00', 'Practical Research 1', '11ABM2403', 'Ms.Fortuno', TRUE),
+(533, 'Thursday', '12:00:00', '14:00:00', 'Statistics and Probability', '11STEM2403', 'Mr.Adug', TRUE),
+(533, 'Friday', '07:00:00', '09:00:00', 'Fundamentals of Accountancy Business & Management 1', '11ABM2403', 'Mr.Lopena', TRUE),
+(533, 'Friday', '09:00:00', '11:00:00', 'Understanding Culture, Society & Politics', '11ABM2403', 'Ms.Corral', TRUE),
+(533, 'Friday', '12:00:00', '14:00:00', 'Statistics and Probability', '11ABM2403', 'Ms.Aserit', TRUE);
+
+INSERT INTO ROOM_SCHEDULE (room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(534, 'Monday', '07:00:00', '11:00:00', 'INF231', 'CTBASNTL', 'R. GALAPON', TRUE),
+(534, 'Monday', '13:00:00', '15:40:00', 'INF233', 'CTBASNTL', 'E. ZUÑIGA', TRUE),
+(534, 'Tuesday', '07:00:00', '11:00:00', 'INF235', 'CTBASNTL', 'R. GALAPON', TRUE),
+(534, 'Tuesday', '13:00:00', '17:00:00', 'COM231', 'CTBASNTL', 'E. ZUÑIGA', TRUE),
+(534, 'Thursday', '07:00:00', '11:00:00', 'INF234', 'CTBASNTL', 'A. CAMACHO', TRUE),
+(534, 'Thursday', '13:00:00', '17:00:00', 'INF233', 'CTBASNTL', 'E. ZUÑIGA', TRUE),
+(534, 'Friday', '07:00:00', '11:00:00', 'INF232', 'CTBASNTL', 'A. CAMACHO', TRUE),
+(534, 'Friday', '17:00:00', '21:00:00', 'COM232', 'CTBASNTL', 'E. ZUÑIGA', TRUE);
+
+INSERT INTO ROOM_SCHEDULE (room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(535, 'Monday', '09:15:00', '11:15:00', 'Disaster Readiness and Risk Reduction', '11STEM2409', 'Ms.Cuartero', TRUE),
+(535, 'Monday', '12:00:00', '14:00:00', 'Entrepreneurship', '11STEM2409', 'Mr.Toledo', TRUE),
+(535, 'Monday', '14:15:00', '16:15:00', 'Entrepreneurship', '11STEM2407', 'Ms.Albarillo', TRUE),
+(535, 'Tuesday', '09:15:00', '11:15:00', 'Entrepreneurship', '11STEM2408', 'Mr.Lopena', TRUE),
+(535, 'Tuesday', '12:00:00', '14:00:00', 'Entrepreneurship', '11STEM2402', 'Mr.Lopena', TRUE),
+(535, 'Thursday', '09:15:00', '11:15:00', 'Disaster Readiness and Risk Reduction', '11STEM2409', 'Ms.Cuartero', TRUE),
+(535, 'Thursday', '12:00:00', '14:00:00', 'Entrepreneurship', '11STEM2409', 'Mr.Toledo', TRUE),
+(535, 'Thursday', '14:15:00', '16:15:00', 'Entrepreneuship', '11STEM2407', 'Ms.Albarillo', TRUE),
+(535, 'Friday', '09:15:00', '11:15:00', 'Entrepreneurship', '11STEM2409', 'Mr.Lopena', TRUE),
+(535, 'Friday', '12:00:00', '14:00:00', 'Entrepreneurship', '11STEM2402', 'Mr.Lopena', TRUE);
+
+INSERT INTO ROOM_SCHEDULE (room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(536, 'Monday', '07:00:00', '09:00:00', 'Entrepreneurship', '11STEM2401', 'Mr.Toledo', TRUE),
+(536, 'Monday', '09:15:00', '11:15:00', 'Statistics and Probability', '11STEM2401', 'Ms.Juanillo', TRUE),
+(536, 'Monday', '12:00:00', '14:00:00', '21st Century Literature from the Philippines and the World', '12STEM2301', 'Ms.Espaldon', TRUE),
+(536, 'Monday', '14:15:00', '16:15:00', 'Capstone Project', '12STEM2301', 'Ms.Cantiga', TRUE),
+(536, 'Tuesday', '07:00:00', '09:00:00', 'Disaster Readiness and Risk Reduction', '11STEM2407', 'Mr.Cuyom', TRUE),
+(536, 'Tuesday', '09:15:00', '11:15:00', 'Introduction to the Philosophy of the Human Persons', '12STEM2301', 'Ms.Oliva', TRUE),
+(536, 'Tuesday', '12:00:00', '14:00:00', 'Filipino sa Piling Larangan', '12STEM2301', 'Ms.Catangay', TRUE),
+(536, 'Tuesday', '14:15:00', '16:15:00', 'Inquires, Investigations and Immersions', '12STEM2301', 'Ms.Corpuz', TRUE),
+(536, 'Thursday', '07:00:00', '09:00:00', 'Entrepreneurship', '11STEM2401', 'Mr.Toledo', TRUE),
+(536, 'Thursday', '09:15:00', '11:15:00', 'Statistics and Probability', '11STEM2401', 'Ms.Juanillo', TRUE),
+(536, 'Thursday', '12:00:00', '14:00:00', '21st Century Literature from the Philippines and the World', '12STEM2301', 'Ms.Espaldon', TRUE),
+(536, 'Thursday', '14:15:00', '16:15:00', 'Capstone Project', '12STEM2301', 'Ms.Cantiga', TRUE),
+(536, 'Friday', '07:00:00', '09:00:00', 'Disaster Readiness and Risk Reduction', '11STEM2407', 'Mr.Cuyom', TRUE),
+(536, 'Friday', '09:15:00', '11:15:00', 'Introduction to the Philosophy of the Human Persons', '12STEM2301', 'Ms.Oliva', TRUE),
+(536, 'Friday', '12:00:00', '14:00:00', 'Filipino sa Piling Larangan', '12STEM2301', 'Ms.Catangay', TRUE),
+(536, 'Friday', '14:15:00', '16:15:00', 'Inquires, Investigations and Immersions', '12STEM2301', 'Ms.Corpuz', TRUE);
+
+INSERT INTO ROOM_SCHEDULE (room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(537, 'Monday', '07:00:00', '09:00:00', 'Disaster Readiness and Risk Reduction', '11STEM2402', 'Mr.Poblete', TRUE),
+(537, 'Monday', '09:15:00', '11:15:00', 'Statistics and Probability', '11STEM2402', 'Mr.Adug', TRUE),
+(537, 'Monday', '12:00:00', '14:00:00', 'Introduction to the Philosophy of the Human Persons', '12STEM2302', 'Ms.Oliva', TRUE),
+(537, 'Monday', '14:15:00', '16:15:00', '21st Century Literature from the Philippines and the World', '12STEM2302', 'Ms.Espaldon', TRUE),
+(537, 'Tuesday', '09:15:00', '11:15:00', 'Filipino sa Piling Larangan', '12STEM2302', 'Ms.Catangay', TRUE),
+(537, 'Tuesday', '12:00:00', '14:00:00', 'Inquires, Investigations and Immersions', '12STEM2302', 'Ms.Corpuz', TRUE),
+(537, 'Tuesday', '14:15:00', '16:15:00', 'Capstone Project', '12STEM2302', 'Ms.Cantiga', TRUE),
+(537, 'Thursday', '07:00:00', '09:00:00', 'Disaster Readiness and Risk Reduction', '11STEM2402', 'Mr.Poblete', TRUE),
+(537, 'Thursday', '09:15:00', '11:15:00', 'Statistics and Probability', '11STEM2402', 'Mr.Adug', TRUE),
+(537, 'Thursday', '12:00:00', '14:00:00', 'Introduction to the Philosophy of the Human Persons', '12STEM2302', 'Ms.Oliva', TRUE),
+(537, 'Thursday', '14:15:00', '16:15:00', '21st Century Literature from the Philippines and the World', '12STEM2302', 'Ms.Espaldon', TRUE),
+(537, 'Friday', '09:15:00', '11:15:00', 'Filipino sa Piling Larangan', '12STEM2302', 'Ms.Catangay', TRUE),
+(537, 'Friday', '12:00:00', '14:00:00', 'Inquires, Investigations and Immersions', '12STEM2302', 'Ms.Corpuz', TRUE),
+(537, 'Friday', '14:15:00', '16:15:00', 'Capstone Project', '12STEM2302', 'Ms.Cantiga', TRUE);
+
+INSERT INTO ROOM_SCHEDULE (room_id, day_of_week, start_time, end_time, subject_code, section, instructor, is_occupied)
+VALUES
+(538, 'Monday', '07:00:00', '09:00:00', 'Disaster Readiness and Risk Reduction', '11STEM2403', 'Mr.Cuyom', TRUE),
+(538, 'Monday', '09:15:00', '11:15:00', 'Entrepreneurship', '11STEM2403', 'Mr.Lopena', TRUE),
+(538, 'Monday', '12:00:00', '14:00:00', 'Filipino sa Piling Larangan', '12STEM2303', 'Ms.Catangay', TRUE),
+(538, 'Monday', '14:15:00', '16:15:00', 'Introduction to the Philosophy of the Human Persons', '12STEM2303', 'Ms.Oliva', TRUE),
+(538, 'Tuesday', '09:15:00', '11:15:00', 'Inquiries Investigations and Immersions', '12STEM2303', 'Ms.Ocampo', TRUE),
+(538, 'Tuesday', '12:00:00', '14:00:00', 'Capstone Project', '12STEM2303', 'Ms.Longaza', TRUE),
+(538, 'Tuesday', '14:15:00', '16:15:00', '21st Century Literature from the Philippines and the World', '12STEM2303', 'Ms.Espaldon', TRUE),
+(538, 'Thursday', '07:00:00', '09:00:00', 'Disaster Readiness and Risk Reduction', '11STEM2403', 'Mr.Cuyom', TRUE),
+(538, 'Thursday', '09:15:00', '11:15:00', 'Entrepreneurship', '11STEM2403', 'Mr.Lopena', TRUE),
+(538, 'Thursday', '12:00:00', '14:00:00', 'Filipino sa Piling Larangan', '12STEM2303', 'Ms.Catangay', TRUE),
+(538, 'Thursday', '14:15:00', '16:15:00', 'Introduction to the Philosophy of the Human Persons', '12STEM2303', 'Ms.Olova', TRUE),
+(538, 'Friday', '09:15:00', '11:15:00', 'Inquiries Investigations and Immersions', '12STEM2303', 'Ms.Ocampo', TRUE),
+(538, 'Friday', '12:00:00', '14:00:00', 'Capstone Project', '12STEM2303', 'Ms.Longaza', TRUE),
+(538, 'Friday', '14:15:00', '16:15:00', '21st Century Literature from the Philippines and the World', '12STEM2303', 'Ms.Espaldon', TRUE),
+
+(539, 'Monday', '09:15:00', '11:15:00', 'Inquiries Investigations and Immersions', '12STEM2304', 'Ms.Apa', TRUE),
+(539, 'Monday', '12:00:00', '14:00:00', 'Capstone Project', '12STEM2304', 'Ms.Longaza', TRUE),
+(539, 'Monday', '14:15:00', '16:15:00', 'Filipino sa Piling Larangan', '12STEM2304', 'Ms.Catangay', TRUE),
+(539, 'Tuesday', '09:15:00', '11:15:00', 'Statistics and Probability', '11STEM2404', 'Ms.Juanillo', TRUE),
+(539, 'Tuesday', '12:00:00', '14:00:00', '21st Century Literature from the Philippines and the world', '12STEM2304', 'Ms.Espaldon', TRUE),
+(539, 'Tuesday', '14:15:00', '16:15:00', 'Introduction to the Philosophy of the Human Persons', '12STEM2304', 'Ms.Oliva', TRUE),
+(539, 'Thursday', '09:15:00', '11:15:00', 'Inquiries Investigations and Immersions', '12STEM2304', 'Ms.Apa', TRUE),
+(539, 'Thursday', '12:00:00', '14:00:00', 'Capstone Project', '12STEM2304', 'Ms.Longaza', TRUE),
+(539, 'Thursday', '14:15:00', '16:15:00', 'Filipino sa Piling Larangan', '12STEM2304', 'Ms.Catangay', TRUE),
+(539, 'Friday', '09:15:00', '11:15:00', 'Statistics and Probability', '11STEM2404', 'Ms.Juanillo', TRUE),
+(539, 'Friday', '12:00:00', '14:00:00', '21st Century Literature from the Philippines and the world', '12STEM2304', 'Ms.Espaldon', TRUE),
+(539, 'Friday', '14:15:00', '16:15:00', 'Introduction to the Philosophy of the Human Persons', '12STEM2304', 'Ms.Oliva', TRUE),
+(540, 'Monday', '07:00:00', '09:00:00', 'Inquiries Investigations,and immersions', '12STEM2305', 'Ms.Apa', TRUE),
+
+(540, 'Monday', '09:15:00', '11:15:00', 'Introduction to the Philosophy of the Human Persons', '12STEM2305', 'Mr.Cuyom', TRUE),
+(540, 'Monday', '12:00:00', '14:00:00', '21st Century Literature from the Philippines and the world', '12STEM2305', 'Mr.Romulo', TRUE),
+(540, 'Monday', '14:15:00', '16:15:00', 'Statistics and Probability', '11STEM2405', 'Ms.Juanillo', TRUE),
+(540, 'Tuesday', '07:00:00', '09:00:00', 'Capstone Project', '12STEM2305', 'Ms.Longaza', TRUE),
+(540, 'Tuesday', '09:15:00', '11:15:00', 'Filipino sa Piling Larangan', '12STEM2305', 'Ms.Corpuz', TRUE),
+(540, 'Tuesday', '12:00:00', '14:00:00', 'Entrepreneurship', '11STEM2405', 'Ms.Albarillo', TRUE),
+(540, 'Tuesday', '14:15:00', '16:15:00', 'Entrepreneurship', '11STEM2405', 'Ms.Albarillo', TRUE),
+(540, 'Thursday', '07:00:00', '09:00:00', 'Inquiries Investigations, and Immersions', '12STEM2305', 'Ms.Apa', TRUE),
+(540, 'Thursday', '09:15:00', '11:15:00', 'Introduction to the Philosophy of the Human Persons', '12STEM2305', 'Mr.Cuyom', TRUE),
+(540, 'Thursday', '12:00:00', '14:00:00', '21st Century Literature from the Philippines and the world', '12STEM2305', 'Mr.Romulo', TRUE),
+(540, 'Thursday', '14:15:00', '16:15:00', 'Statistics and Probability', '11STEM2405', 'Ms.Juanillo', TRUE),
+(540, 'Friday', '07:00:00', '09:00:00', 'Capstone Project', '12STEM2305', 'Ms.Longaza', TRUE),
+(540, 'Friday', '09:15:00', '11:15:00', 'Filipino sa Piling Larangan', '12STEM2305', 'Ms.Corpuz', TRUE),
+(540, 'Friday', '12:00:00', '14:00:00', 'Entrepreneurship', '11STEM2405', 'Ms.Albarillo', TRUE),
+(540, 'Friday', '14:15:00', '16:15:00', 'Entrepreneurship', '11STEM2405', 'Ms.Albarillo', TRUE),
+
+(541, 'Tuesday', '07:00:00', '20:20:00', 'ADESGN5S', 'ARC223P', 'J. Gutierrez', TRUE),
+(541, 'Wednesday', '07:00:00', '12:20:00', 'ADESGN2S', 'ARC242', 'R. Pajo', TRUE),
+(541, 'Wednesday', '13:00:00', '18:20:00', 'ADESGN2S', 'ARC242A', 'R. Pajo', TRUE),
+(541, 'Thursday', '07:00:00', '12:00:00', 'ADESGN4S', 'ARC242', 'D. Romualdez', TRUE),
+(541, 'Thursday', '13:00:00', '17:20:00', 'ADESGN4S', 'ARC231A', 'D. Romualdez', TRUE),
+(541, 'Friday', '07:00:00', '13:40:00', 'ABUTLI3S', 'ARC224', 'L. Vista', TRUE),
+(541, 'Saturday', '07:00:00', '20:20:00', 'ADESGN5S', 'ARC224P', 'J. Ampo-Peralta', TRUE),
+
+(542, 'Monday', '09:00:00', '14:20:00', 'AVSTEN2S', 'ARC244P', '', TRUE),
+(542, 'Thursday', '07:00:00', '12:20:00', 'ADESGN1S', 'ARC245P', 'R.PAJO', TRUE),
+(542, 'Thursday', '13:40:00', '20:20:00', 'ABTECN3S', 'ARC223P', '', TRUE);

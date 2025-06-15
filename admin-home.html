@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rowdies&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="admin-home.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <nav class="nav">
+    <!-- Hamburger Navigation Start -->
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+
+      <ul class="menu__box">
+        <li><a class="menu__item" href="admin-home.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a class="menu__item" href="admin-reservation.php"><i class="fas fa-calendar-check"></i> Reserve Rooms</a></li>
+        <li><a class="menu__item" href="admin-logs.html"><i class="fas fa-clipboard-list"></i> Logs</a></li>
+        <li><a class="menu__item" href="admin-available-rooms.html"><i class="fas fa-door-open"></i> Available Rooms</a></li>
+        <li><a class="menu__item" href="admin-client.html"><i class="fas fa-users"></i> Clients</a></li>
+        <li><a class="menu__item" href="admin-archive.html"><i class="fas fa-archive"></i> Archive</a></li>
+        <li><a class="menu__item" href="index.html"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+      </ul>
+    </div>
+    <!-- Hamburger Navigation End -->
+    
+    <!-- Logo -->
+    <div class="logo">
+      <img src="Photos/nu-logo-label.png" alt="NU Logo">
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="main">
+
+    <!-- Date and Time -->
+    <div class="date-time-row">
+      <div class="date-card">
+        <small>Today's Date</small>
+        <h2 id="current-date">June 4, 2025</h2>
+      </div>
+      <div class="time-card">
+        <small>Current Time</small>
+        <h2 id="current-time">9:43 PM</h2>
+      </div>
+    </div>
+
+    <!-- Dashboard Cards -->
+    <div class="menu-row">
+      <div class="card">
+        <a href="admin-reservation.php">
+          <i class="fas fa-calendar-alt"></i>
+          <h3>RESERVED ROOMS</h3>
+          <small>View all booked rooms</small>
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="admin-logs.html">
+          <i class="fas fa-clipboard"></i>
+          <h3>LOGS</h3>
+          <small>Check system activities</small>
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="admin-available-rooms.html">
+          <i class="fas fa-door-open"></i>
+          <h3>AVAILABLE ROOMS</h3>
+          <small>See vacant rooms</small>
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="admin-client.html">
+          <i class="fas fa-user-friends"></i>
+          <h3>CLIENTS</h3>
+          <small>Manage user accounts</small>
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="admin-archive.html">
+          <i class="fas fa-archive"></i>
+          <h3>ARCHIVES</h3>
+          <small>Historical records</small>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function updateDateTime() {
+      const now = new Date();
+
+      const options = { year: 'numeric', month: 'long', day: 'numeric' };
+      const formattedDate = now.toLocaleDateString('en-US', options);
+      document.getElementById('current-date').textContent = formattedDate;
+
+      let hours = now.getHours();
+      const minutes = now.getMinutes().toString().padStart(2, '0');
+      const seconds = now.getSeconds().toString().padStart(2, '0');
+      const ampm = hours >= 12 ? 'PM' : 'AM';
+      hours = hours % 12;
+      hours = hours ? hours : 12;
+      const formattedTime = `${hours}:${minutes}:${seconds} ${ampm}`;
+      document.getElementById('current-time').textContent = formattedTime;
+    }
+    updateDateTime();
+    setInterval(updateDateTime, 1000);
+  </script>
+
+  <script src="function-logout.js"></script>
+</body>
+</html>

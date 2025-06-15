@@ -1,0 +1,94 @@
+INSERT INTO ROOMS (room_id, floor, room_type) VALUES
+(401, '4th', 'Lecture'),
+(402, '4TH', 'Lecture'),
+(403, '4th', 'Lecture'),
+(404, '4th', 'Lecture'),
+(405, '4th', 'Lecture'),
+(406, '4th', 'Lecture'),
+(407, '4th', 'Lecture'),
+(408, '4th', 'Lecture'),
+(409, '4th', 'Lecture'),
+(410, '4th', 'Lecture'),
+(411, '4th', 'Lecture'),
+(412, '4th', 'Lecture'),
+(413, '4th', 'Lecture'),
+(414, '4th', 'Lecture'),
+(415, '4th', 'Lecture'),
+(416, '4th', 'Lecture'),
+(417, '4th', 'Lecture'),
+(418, '4th', 'Lecture'),
+(419, '4th', 'Lecture'),
+(420, '4th', 'Lecture'),
+(421, '4th', 'Lecture'),
+(422, '4th', 'Lecture'),
+(423, '4th', 'Lecture'),
+(424, '4th', 'Lecture'),
+(425, '4th', 'Lecture'),
+(426, '4th', 'Lecture'),
+(427, '4th', 'Lecture'),
+(428, '4th', 'Lecture'),
+(429, '4th', 'Lecture'),
+(430, '4th', 'Lecture'),
+(431, '4th', 'Lecture'),
+(432, '4th', 'Lecture'),
+(433, '4th', 'Lecture'),
+(434, '4th', 'Lecture'),
+(435, '4th', 'Lecture'),
+(436, '4th', 'Lecture'),
+(437, '4th', 'Lecture'),
+(438, '4th', 'Laboratory'),
+
+(501, '5th', 'Laboratory'),
+(502, '5th', 'Laboratory'),
+(503, '5th', 'Laboratory'),
+(504, '5th', 'Laboratory'),
+(505, '5th', 'Laboratory'),
+(506, '5th', 'Laboratory'),
+(507, '5th', 'Laboratory'),
+(508, '5th', 'Laboratory'),				
+(509, '5th', 'Laboratory'),
+(511, '5th', 'Laboratory'),
+(512, '5th', 'Laboratory'),
+(514, '5th', 'Laboratory'),
+(516, '5th', 'Laboratory'),
+(517, '5th', 'Laboratory'),
+(519, '5th', 'Laboratory'),
+(521, '5th', 'Lecture'),
+(522, '5th', 'Lecture'),
+(523, '5th', 'Lecture'),
+(524, '5th', 'Lecture'),
+(525, '5th', 'Lecture'),
+(526, '5th', 'Lecture'),
+(527, '5th', 'Lecture'),
+(528, '5th', 'Lecture'),
+(529, '5th', 'Lecture'),
+(530, '5th', 'Lecture'),
+(532, '5th', 'Lecture'),
+(533, '5th', 'Lecture'),
+(534, '5th', 'Laboratory'),
+(535, '5th', 'Lecture'),
+(536, '5th', 'Lecture'),
+(537, '5th', 'Lecture'),
+(538, '5th', 'Lecture'),
+(539, '5th', 'Lecture'),
+(540, '5th', 'Lecture'),
+(541, '5th', 'Lecture'),
+(542, '5th', 'Lecture');
+
+INSERT INTO ROOMS (room_id, floor, room_type) VALUES
+(531, '5th', 'Lecture');
+
+INSERT INTO ROOMS (room_id, floor, room_type) VALUES
+(510, '5th', 'Lecture');
+
+INSERT INTO ROOMS (room_id, floor, room_type) VALUES
+(513, '5th', 'Lecture');
+
+INSERT INTO ROOMS (room_id, floor, room_type) VALUES
+(515, '5th', 'Laboratory');
+
+INSERT INTO ROOMS (room_id, floor, room_type) VALUES
+(518, '5th', 'Laboratory');
+
+INSERT INTO ROOMS (room_id, floor, room_type) VALUES
+(520, '5th', 'Laboratory');

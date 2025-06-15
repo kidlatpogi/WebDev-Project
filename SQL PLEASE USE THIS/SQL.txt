@@ -1,0 +1,103 @@
+CREATE DATABASE room_reservation;
+USE room_reservation;
+
+-- for LOGIN and SIGNUP of the users
+CREATE TABLE USERS(
+    user_id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    email VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(50) NOT NULL
+);
+
+-- usders details connected to USERS table
+CREATE TABLE USER_DETAILS(
+    userDetails_id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    fname VARCHAR(30) NOT NULL DEFAULT ' ',
+    lname VARCHAR(30) NOT NULL DEFAULT ' ',
+    image MEDIUMBLOB NULL,
+    user_id INT UNIQUE,
+    CONSTRAINT user_id_fk FOREIGN KEY(user_id) REFERENCES USERS(user_id) ON DELETE CASCADE
+);
+
+
+-- for rooms floor and type
+CREATE TABLE ROOMS(
+    room_id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    floor ENUM('4th','5th') NOT NULL,
+    room_type ENUM('Lecture', 'Laboratory') NOT NULL
+);
+
+-- rooms descriptions
+CREATE TABLE ROOM_DETAILS (
+    room_detail_id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    room_id INT NOT NULL,
+    description VARCHAR(255) NOT NULL,
+    CONSTRAINT fk_room_details FOREIGN KEY(room_id) REFERENCES ROOMS(room_id)
+);
+
+-- reservation status
+CREATE TABLE RESERVATION_STATUS(
+    status_id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    status ENUM('Ongoing', 'Completed', 'Canceled') NOT NULL
+);
+
+-- for users reservations, connected to USERS_DETAILES, ROOMS, RESERVATION_STATUS
+CREATE TABLE RESERVATION(
+    reservation_id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    reservation_date DATE NOT NULL,
+    start_time TIME NOT NULL,
+    end_time TIME NOT NULL,
+    userDetails_id INT,
+    room_id INT,
+    status_id INT,
+    CONSTRAINT fk_userDetails FOREIGN KEY(userDetails_id) REFERENCES USER_DETAILS(userDetails_id),
+    CONSTRAINT fk_room FOREIGN KEY(room_id) REFERENCES ROOMS(room_id),
+    CONSTRAINT fk_status FOREIGN KEY(status_id) REFERENCES RESERVATION_STATUS(status_id)
+);
+
+-- connected to ROOMS table
+CREATE TABLE ROOM_SCHEDULE (
+    schedule_id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    room_id INT NOT NULL,
+    day_of_week ENUM('Monday','Tuesday','Wednesday','Thursday','Friday','Saturday') NOT NULL,
+    start_time TIME NOT NULL,
+    end_time TIME NOT NULL,
+    subject_code VARCHAR(20),
+    section VARCHAR(20),
+    instructor VARCHAR(50),
+    is_occupied BOOLEAN NOT NULL DEFAULT TRUE,
+    CONSTRAINT fk_room_schedule FOREIGN KEY(room_id) REFERENCES ROOMS(room_id)
+);
+
+-- PAG NA-CREATE NA LAHAT NG TABLE I-RUN NIYO ITONG MGA ALTER
+ALTER TABLE USERS MODIFY password VARCHAR(255);
+ALTER TABLE USER_DETAILS MODIFY COLUMN image LONGBLOB;
+ALTER TABLE RESERVATION_STATUS MODIFY status ENUM('Ongoing', 'Completed', 'Cancelled');
+
+-- PAG NA-RUN NA ITONG MGA ALTER, RUN NIYO NAMAN TO
+-- ITONG SELECT MUNE I-RUN, PAG NULL YUNG LAMAN I-RUN YUNG INSERT INTO SA BABA
+SELECT status FROM reservation_status;
+
+-- INTO YUNG IRA-RUN PAG NULL YUNG SA SELECT
+INSERT INTO RESERVATION_STATUS (status) 
+VALUES 
+    ('Ongoing'),
+    ('Cancelled'), 
+    ('Completed');
+
+
+-- Ito i-run para makita mga reservations
+SELECT r.reservation_id, r.reservation_date, r.start_time, r.end_time,
+       ud.fname, ud.lname,
+       ro.floor, ro.room_type,
+       rs.status
+FROM RESERVATION r
+JOIN USER_DETAILS ud ON r.userDetails_id = ud.userDetails_id
+JOIN ROOMS ro ON r.room_id = ro.room_id
+JOIN RESERVATION_STATUS rs ON r.status_id = rs.status_id
+
+WHERE r.room_id = 402 -- bguhin niyo lang tong room number
+
+ORDER BY r.reservation_date, r.start_time;
+
+
+SELECT * FROM USERS;
