@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Available Rooms</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rowdies&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="admin-available-rooms.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <!-- Hamburger Navigation Start -->
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+
+      <ul class="menu__box">
+        <li><a class="menu__item" href="admin-home.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a class="menu__item" href="admin-reservation.php"><i class="fas fa-calendar-check"></i> Reserve Rooms</a></li>
+        <li><a class="menu__item" href="admin-logs.html"><i class="fas fa-clipboard-list"></i> Logs</a></li>
+        <li><a class="menu__item" href="admin-available-rooms.html"><i class="fas fa-door-open"></i> Available Rooms</a></li>
+        <li><a class="menu__item" href="admin-client.html"><i class="fas fa-users"></i> Clients</a></li>
+        <li><a class="menu__item" href="admin-archive.html"><i class="fas fa-archive"></i> Archive</a></li>
+        <li><a class="menu__item" href="index.html"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+      </ul>
+    </div>
+    <!-- Hamburger Navigation End -->
+    
+    <!-- Logo -->
+    <div class="logo">
+      <img src="Photos/nu-logo-label.png" alt="NU Logo">
+    </div>
+  </nav>
+
+  <main class="main">
+    <h2 class="page-title"><i class="fas fa-door-open"></i> Available Rooms</h2>
+    
+    <div class="search-container">
+      <div class="search-box">
+        <i class="fas fa-search"></i>
+        <input type="text" id="room_number" placeholder="Enter room number..." class="search-input"/>
+      </div>
+      <div class="search-box">
+        <i class="far fa-calendar-alt"></i>
+        <input type="date" id="date" class="search-input"/>
+      </div>
+      <button class="search-btn" onclick="searchRooms()">
+        <i class="fas fa-search"></i> Search
+      </button>
+    </div>
+    
+    <div class="results" id="results">
+      <!-- Search results will be displayed here -->
+      <div class="no-results">
+        <i class="fas fa-door-open"></i>
+        <p>Search for available rooms by entering a room number and date</p>
+      </div>
+    </div>
+  </main>
+
+  <script>
+  function searchRooms() {
+    const roomNumber = document.getElementById('room_number').value;
+    const date = document.getElementById('date').value;
+    const resultsDiv = document.getElementById('results');
+
+    // Show loading state
+    resultsDiv.innerHTML = '<div class="loading"><i class="fas fa-spinner fa-spin"></i> Searching for available rooms...</div>';
+
+    fetch('available-rooms.php', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: `room_number=${roomNumber}&date=${date}`
+    })
+    .then(response => response.json())
+    .then(data => {
+      resultsDiv.innerHTML = '';
+      if (data.available_slots.length > 0) {
+        const title = document.createElement('h3');
+        title.className = 'results-title';
+        title.innerHTML = `<i class="fas fa-calendar-day"></i> Scheduled Times for Room ${roomNumber} on ${date}`;
+        resultsDiv.appendChild(title);
+
+        const description = document.createElement('p');
+        description.className = 'results-description';
+        description.textContent = data.description;
+        resultsDiv.appendChild(description);
+
+        data.available_slots.forEach(slot => {
+          const card = document.createElement('div');
+          card.className = 'room-card';
+          card.innerHTML = `
+            <div class="time-slot">
+              <i class="far fa-clock"></i>
+              <span><b>${slot.start_time} - ${slot.end_time}</b></span>
+            </div>
+            <div class="room-status available">Available</div>
+          `;
+          resultsDiv.appendChild(card);
+        });
+      } else {
+        resultsDiv.innerHTML = `
+          <div class="no-results">
+            <i class="fas fa-door-closed"></i>
+            <p>No available time slots found for Room ${roomNumber} on ${date}</p>
+          </div>
+        `;
+      }
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      resultsDiv.innerHTML = `
+        <div class="error">
+          <i class="fas fa-exclamation-triangle"></i>
+          <p>An error occurred while searching for rooms. Please try again.</p>
+        </div>
+      `;
+    });
+  }
+  </script>
+
+</body>
+</html>
